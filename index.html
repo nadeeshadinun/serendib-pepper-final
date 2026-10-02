@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Noto+Sans+Sinhala:wght@400;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"primary-fixed-dim":"#c5c7c2","inverse-on-surface":"#f3f0e9","on-error-container":"#93000a","primary":"#000000","on-background":"#1c1c18","surface":"#fcf9f2","on-secondary-fixed-variant":"#005322","on-secondary":"#ffffff","tertiary":"#000000","surface-variant":"#e5e2db","primary-fixed":"#e1e3de","on-primary-fixed-variant":"#454844","on-surface-variant":"#444843","outline":"#757873","secondary-container":"#5dfd8a","error":"#ba1a1a","on-secondary-container":"#007232","on-error":"#ffffff","on-secondary-fixed":"#002109","on-tertiary-fixed":"#2d1600","background":"#fcf9f2","on-primary-fixed":"#191c19","surface-container-low":"#f6f3ec","on-primary-container":"#828580","surface-bright":"#fcf9f2","error-container":"#ffdad6","on-tertiary":"#ffffff","inverse-primary":"#c5c7c2","on-tertiary-container":"#a87b4f","tertiary-container":"#2d1600","secondary-fixed":"#66ff8e","tertiary-fixed":"#ffdcbf","on-tertiary-fixed-variant":"#633f19","primary-container":"#191c19","surface-tint":"#5c5f5b","surface-container":"#f1eee7","surface-dim":"#dcdad3","on-primary":"#ffffff","inverse-surface":"#31312c","on-surface":"#1c1c18","surface-container-high":"#ebe8e1","secondary":"#006d2f","tertiary-fixed-dim":"#f1bc8c","surface-container-lowest":"#ffffff","outline-variant":"#c5c7c2","secondary-fixed-dim":"#3de273","surface-container-highest":"#e5e2db"},borderRadius:{DEFAULT:"0.125rem",lg:"0.25rem",xl:"0.5rem",full:"0.75rem"},spacing:{"space-lg":"1.75rem",gutter:"1.25rem","gutter-desktop":"2rem",margin:"1rem","margin-desktop":"4rem","space-xs":"0.25rem","space-xl":"3rem","space-md":"1rem","space-sm":"0.5rem"},fontFamily:{"headline-lg":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"body-md":["Inter"],"display-hero":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"body-lg":["Inter"],"label-tag":["Plus Jakarta Sans"],"label-sinhala-lead":["Noto Sans Sinhala"],"body-sm":["Inter"],"headline-md":["Plus Jakarta Sans"],"label-currency":["Plus Jakarta Sans"],"label-sinhala-body":["Noto Sans Sinhala"],"display-hero-mobile":["Plus Jakarta Sans"]},fontSize:{"headline-lg":["36px",{lineHeight:"44px",letterSpacing:"-0.02em",fontWeight:"700"}],"headline-sm":["20px",{lineHeight:"28px",fontWeight:"600"}],"body-md":["16px",{lineHeight:"24px",fontWeight:"400"}],"display-hero":["56px",{lineHeight:"64px",letterSpacing:"-0.03em",fontWeight:"800"}],"headline-lg-mobile":["28px",{lineHeight:"34px",letterSpacing:"-0.01em",fontWeight:"700"}],"body-lg":["18px",{lineHeight:"28px",fontWeight:"400"}],"label-tag":["12px",{lineHeight:"16px",letterSpacing:"0.06em",fontWeight:"700"}],"label-sinhala-lead":["20px",{lineHeight:"32px",fontWeight:"700"}],"body-sm":["14px",{lineHeight:"20px",fontWeight:"400"}],"headline-md":["24px",{lineHeight:"32px",letterSpacing:"-0.01em",fontWeight:"700"}],"label-currency":["22px",{lineHeight:"28px",letterSpacing:"-0.01em",fontWeight:"800"}],"label-sinhala-body":["15px",{lineHeight:"24px",fontWeight:"400"}],"display-hero-mobile":["38px",{lineHeight:"44px",letterSpacing:"-0.02em",fontWeight:"800"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-secondary-container selection:text-on-secondary-container"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1280px] mx-auto px-margin md:px-gutter lg:px-margin-desktop flex items-center justify-between gap-4"><div class="flex items-center gap-3 shrink-0"><img alt="Serendib Black Pepper Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UZTucHE0nmCODMopDxJK0hBIwSGZmu_8Lixu4slbHor_SHruw2k3HKQ1bmbw7Wchjpv6LYJJ3_zhdtldmmMPNHmD0JxkR-giVZ7v4l5YRIewfqeZuVGcz4NY_XN1rQcDn6jCyob0F5fQ7DBHyfmxGfdNH4wvo03BwH8fM3xGvAVqdeXFM0KdcuuRtXWfTdnKdoxQoAaxCjIel9FGLAYGCRwkS1EDxixtzOBpF0oQKXA2ip8hmyLHdxW-mc"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm uppercase tracking-tight text-on-surface leading-none">Serendib</span><span class="font-label-tag text-label-tag text-secondary uppercase tracking-wider">Delkanda • Ceylon</span></div></div><nav class="hidden xl:flex items-center gap-6" data-active-classes="bg-surface-container-high text-on-surface font-semibold rounded-lg"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors py-1.5 px-3 rounded-lg" data-path="home" href="#">Our Story (අපගේ කතාව)</a><a aria-current="page" class="transition-colors py-1.5 px-3 bg-surface-container-high text-on-surface font-semibold rounded-lg" data-path="products-pricing" href="#products">Products &amp; Pricing (මිල ගණන්)</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors py-1.5 px-3 rounded-lg" data-path="benefits" href="#">Benefits (ගුණාංග)</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors py-1.5 px-3 rounded-lg" data-path="location-map" href="#">Location &amp; Map (සොයාගන්න)</a></nav><div class="flex items-center gap-3 shrink-0"><a class="inline-flex items-center gap-2 bg-secondary text-on-secondary hover:bg-on-secondary-container hover:text-on-secondary px-3.5 py-2 rounded-full transition-all shadow-[0_4px_16px_-2px_rgba(0,109,47,0.25)]" href="https://wa.me/94777511933" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[18px]">chat</span><span class="font-label-tag text-label-tag tracking-normal uppercase">0777511933 | අදම අමතන්න</span></a><div class="hidden md:flex items-center gap-1 text-on-surface-variant"><a class="p-1.5 rounded-lg hover:bg-surface-container hover:text-on-surface transition-colors" href="https://facebook.com" rel="noopener noreferrer" target="_blank" title="Serendib Pepper Facebook"><span class="material-symbols-outlined text-[20px]">share</span></a><a class="p-1.5 rounded-lg hover:bg-surface-container hover:text-on-surface transition-colors" href="https://instagram.com" rel="noopener noreferrer" target="_blank" title="Serendib Pepper Instagram"><span class="material-symbols-outlined text-[20px]">photo_camera</span></a><a class="p-1.5 rounded-lg hover:bg-surface-container hover:text-on-surface transition-colors" href="https://youtube.com" rel="noopener noreferrer" target="_blank" title="Serendib Harvest Videos"><span class="material-symbols-outlined text-[20px]">smart_display</span></a></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface pb-16 md:pb-0"><div class="flex flex-col w-full">
+<!-- Top Marquee Ticker -->
+<div class="w-full bg-primary text-on-primary py-2.5 overflow-hidden shadow-sm select-none">
+<div class="flex items-center gap-12 whitespace-nowrap animate-[marquee_24s_linear_infinite]">
+<span class="inline-flex items-center gap-2 font-label-tag text-label-tag uppercase tracking-wider text-secondary-container">
+<span class="material-symbols-outlined text-[16px] text-secondary-container">eco</span> 100% Organic Ceylon Black Pepper
+      </span>
+<span class="text-surface-variant/40">•</span>
+<span class="inline-flex items-center gap-2 font-label-sinhala-body text-label-sinhala-body text-surface">
+        දෙල්කඳ, නුගේගොඩ සෘජු බෙදාහැරීම
+      </span>
+<span class="text-surface-variant/40">•</span>
+<span class="inline-flex items-center gap-2 font-label-tag text-label-tag uppercase tracking-wider text-surface">
+<span class="material-symbols-outlined text-[16px] text-secondary-fixed">science</span> High Piperine Content (5.5%+)
+      </span>
+<span class="text-surface-variant/40">•</span>
+<span class="inline-flex items-center gap-2 font-label-tag text-label-tag uppercase tracking-wider text-surface">
+<span class="material-symbols-outlined text-[16px] text-secondary-container">local_shipping</span> Islandwide Cash on Delivery
+      </span>
+<span class="text-surface-variant/40">•</span>
+<a class="inline-flex items-center gap-1.5 font-label-tag text-label-tag uppercase tracking-wider text-secondary-container hover:underline" href="tel:0777511933">
+<span class="material-symbols-outlined text-[16px]">call</span> 📞 0777511933
+      </a>
+<span class="text-surface-variant/40">•</span>
+<span class="inline-flex items-center gap-2 font-label-tag text-label-tag uppercase tracking-wider text-secondary-container">
+<span class="material-symbols-outlined text-[16px]">verified</span> Lab Certified Single-Origin
+      </span>
+<!-- Duplicate set for seamless continuous marquee loop -->
+<span class="text-surface-variant/40">•</span>
+<span class="inline-flex items-center gap-2 font-label-tag text-label-tag uppercase tracking-wider text-secondary-container">
+<span class="material-symbols-outlined text-[16px] text-secondary-container">eco</span> 100% Organic Ceylon Black Pepper
+      </span>
+<span class="text-surface-variant/40">•</span>
+<span class="inline-flex items-center gap-2 font-label-sinhala-body text-label-sinhala-body text-surface">
+        දෙල්කඳ, නුගේගොඩ සෘජු බෙදාහැරීම
+      </span>
+<span class="text-surface-variant/40">•</span>
+<span class="inline-flex items-center gap-2 font-label-tag text-label-tag uppercase tracking-wider text-surface">
+<span class="material-symbols-outlined text-[16px] text-secondary-fixed">science</span> High Piperine Content (5.5%+)
+      </span>
+<span class="text-surface-variant/40">•</span>
+<a class="inline-flex items-center gap-1.5 font-label-tag text-label-tag uppercase tracking-wider text-secondary-container hover:underline" href="tel:0777511933">
+<span class="material-symbols-outlined text-[16px]">call</span> 📞 0777511933
+      </a>
+</div>
+</div>
+<style>
+    @keyframes marquee {
+      0% { transform: translateX(0%); }
+      100% { transform: translateX(-50%); }
+    }
+  </style>
+<!-- Hero Section: Modern Minimalist Lab-Purity Tier -->
+<section class="w-full bg-surface-container-lowest text-on-surface py-12 md:py-20">
+<div class="max-w-[1280px] mx-auto px-margin md:px-gutter lg:px-margin-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+<!-- Text Column -->
+<div class="lg:col-span-7 flex flex-col gap-6">
+<div class="flex flex-wrap items-center gap-2">
+<span class="bg-surface-container-high text-secondary px-3 py-1 rounded-full font-label-tag text-label-tag uppercase inline-flex items-center gap-1.5 shadow-sm">
+<span class="material-symbols-outlined text-[15px]">verified_user</span> Direct Delkanda Harvest
+            </span>
+<span class="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full font-label-tag text-label-tag uppercase inline-flex items-center gap-1">
+              Grade 1 • 550GL Certified
+            </span>
+</div>
+<div class="flex flex-col gap-3">
+<h2 class="font-label-sinhala-lead text-label-sinhala-lead text-on-surface leading-tight text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight">
+              පිරිසිදු ශ්‍රී ලාංකික ගම්මිරිස්
+            </h2>
+<h1 class="font-headline-lg text-headline-lg text-on-surface text-3xl md:text-5xl font-extrabold tracking-tight">
+              Pure Ceylon Black Pepper — Directly from Delkanda, Nugegoda
+            </h1>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl leading-relaxed">
+            Cultivated in the mineral-rich soils of Ceylon, sun-cured naturally, and sorted directly at our Delkanda distribution hub. Bold pungency, unadulterated freshness, and potent essential oils preserved without artificial additives.
+          </p>
+<!-- Punchy Badges Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-3.5 pt-2">
+<div class="bg-surface-container-low p-4 rounded-xl flex flex-col gap-1 shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[26px]">wb_sunny</span>
+<span class="font-label-sinhala-lead text-label-sinhala-lead text-on-surface text-[16px] font-bold">100% ස්වභාවිකයි</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">100% Sun-Dried Natural</span>
+</div>
+<div class="bg-surface-container-low p-4 rounded-xl flex flex-col gap-1 shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[26px]">local_fire_department</span>
+<span class="font-label-sinhala-lead text-label-sinhala-lead text-on-surface text-[16px] font-bold">ඉහළම සුවඳ සහ සැර</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Grade 1 High Piperine</span>
+</div>
+<div class="bg-surface-container-low p-4 rounded-xl flex flex-col gap-1 shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[26px]">shield</span>
+<span class="font-label-sinhala-lead text-label-sinhala-lead text-on-surface text-[16px] font-bold">කවලම් නැති විශ්වාසය</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Zero Adulteration</span>
+</div>
+</div>
+<!-- Massive Primary WhatsApp CTA (Strictly zero form fields) -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-4">
+<a class="group relative inline-flex items-center justify-center gap-3 bg-[#25D366] hover:bg-[#20ba59] text-white px-7 py-4 rounded-full font-headline-sm text-headline-sm uppercase tracking-wide shadow-[0_12px_28px_-6px_rgba(37,211,102,0.45)] hover:shadow-[0_16px_36px_-6px_rgba(37,211,102,0.6)] transition-all transform active:scale-95" href="https://wa.me/94777511933?text=Serendib%20Black%20Pepper%20order%20inquiry%20from%20Delkanda" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[26px] animate-pulse">chat</span>
+<span class="flex flex-col text-left leading-none">
+<span class="font-label-tag text-[11px] text-white/90 tracking-widest uppercase">Direct Dispatch WhatsApp</span>
+<span class="text-[17px] font-bold">අදම ඇණවුම් කරන්න (0777511933)</span>
+</span>
+<span class="material-symbols-outlined text-[22px] transition-transform group-hover:translate-x-1">arrow_forward</span>
+</a>
+<a class="inline-flex items-center justify-center gap-2 bg-surface-container text-on-surface hover:bg-surface-container-high px-6 py-4 rounded-full font-label-tag text-label-tag uppercase transition-colors shadow-sm" href="tel:0777511933">
+<span class="material-symbols-outlined text-[20px] text-secondary">phone_in_talk</span>
+<span>Call Hub Direct: 0777511933</span>
+</a>
+</div>
+<div class="flex items-center gap-2 text-on-surface-variant font-body-sm text-body-sm pt-1">
+<span class="material-symbols-outlined text-secondary text-[18px]">bolt</span>
+<span>ක්ෂණික සෘජු ඇණවුම • ලියාපදිංචි කිරීම් හෝ පෝරම අවශ්‍ය නොවේ (Zero registration/No checkout forms)</span>
+</div>
+</div>
+<!-- Hero Visual Showcase -->
+<div class="lg:col-span-5 relative">
+<div class="relative rounded-2xl overflow-hidden shadow-2xl bg-surface-container-high">
+<img alt="Premium Serendib Ceylon whole black peppercorns in dark artisan ceramic bowl" class="w-full h-full aspect-[4/3] lg:aspect-square object-cover hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDBWYmVJcIZea-n0i5RHHyIcPV9LxweKEBC6CKshAQv-ZxaYFlzBL-wAQHAM6HVFd-qI4kJnDdYPzXhrEf61y2hKHrU3wL0ub4-KWHJn1JHO-iSftz4QZocIljAhL4KpZLtLDmza3c4ZRwp5rz_ATz2hWLmKop-81XGyUmOOb15Uk1lv8ID7zsFEJTvObk_m-mwKnbjnT2zft1eVTKk5TLpjKGC0fxNs1ZAXRIyylHqgoHZ1B17Hk3zrw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-5 left-5 right-5 p-4 rounded-xl bg-surface-container-lowest/90 backdrop-blur-md flex items-center justify-between shadow-lg">
+<div class="flex flex-col">
+<span class="font-label-tag text-label-tag text-secondary uppercase font-bold">Lab Tested Density</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">550+ Grams/Litre (GL)</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Delkanda Dispatch Certified</span>
+</div>
+<div class="w-12 h-12 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary-container shrink-0">
+<span class="material-symbols-outlined text-[26px]">psychiatry</span>
+</div>
+</div>
+</div>
+<div class="absolute -top-4 -right-4 bg-primary text-on-primary font-label-tag text-label-tag px-4 py-2 rounded-full shadow-xl flex items-center gap-1.5 uppercase">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary-fixed animate-ping"></span>
+            Delkanda Fresh Batch
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- Terroir & Craft Section (Warm Paper / Earthy Contrast Zone) -->
+<section class="w-full bg-[#f5ede0] text-on-surface py-16 md:py-24">
+<div class="max-w-[1280px] mx-auto px-margin md:px-gutter lg:px-margin-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+<!-- Packaging Craft Photo -->
+<div class="lg:col-span-5 order-2 lg:order-1">
+<div class="relative rounded-2xl overflow-hidden shadow-xl bg-[#e8ded1]">
+<img alt="Serendib Ceylon Black Pepper authentic kraft pouch packaging on rustic wooden spice counter" class="w-full h-auto aspect-square object-cover hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuATEnJ_pnrvfbyGtOpN0PoZorRTGXrdQ3ohwzuEh_xgmAt_VxcBPcBehHn5NnmyLLV72obhniTBbFXrqKUo0ENlJ1XFhjEm37ZrX0yEKalmgN7KjERShZQZ2lEmPjHuQFqJz5MVATaO0APcuzTRsMP19vgdCOp2uN5X0P4_QosNCK4jUQidAB1BtzjpFB12rtdSkpM3bJI4o2TTVY0zrUGTmSrjaz9yFAyLyqmJxL_pU1qigyREBOu_Rg"/>
+<div class="absolute top-4 left-4 bg-[#271C19]/90 text-[#f5ede0] px-3.5 py-1.5 rounded-full font-label-tag text-label-tag uppercase tracking-wider backdrop-blur-sm">
+              Eco-Friendly Craft Pouch
+            </div>
+</div>
+</div>
+<!-- Terroir Narrative -->
+<div class="lg:col-span-7 order-1 lg:order-2 flex flex-col gap-6">
+<span class="font-label-tag text-label-tag text-[#4E342E] uppercase tracking-widest font-bold">Origin &amp; Authenticity • දෙල්කඳ සුවිශේෂී රසය</span>
+<h2 class="font-headline-lg text-headline-lg text-[#271C19] text-3xl md:text-4xl font-extrabold tracking-tight">
+            Single-Origin Provenance, Roasted Sun Aroma &amp; Intact Piperine
+          </h2>
+<p class="font-label-sinhala-body text-label-sinhala-body text-[#3E2723] text-lg leading-relaxed">
+            වෙළඳපොලේ ඇති බාල, කුඩු කල සහ මිශ්‍ර කරන ලද ගම්මිරිස් වෙනුවට අප දෙල්කඳ අලෙවි මධ්‍යස්ථානයෙන් සෘජුවම ලබා දෙන්නේ වගාබිම් වලින් නැවුම්ව නෙළා, පිරිසිදු කර, නිසි ප්‍රමිතියට හිරු එළියෙන් වියළන ලද ස්වභාවික කළු ගම්මිරිස් පමණි.
+          </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+<div class="bg-surface-container-lowest/80 p-5 rounded-xl shadow-sm flex flex-col gap-1">
+<span class="font-headline-sm text-headline-sm text-[#271C19]">5.5% — 6.2%</span>
+<span class="font-label-tag text-label-tag uppercase text-secondary font-bold">Natural Piperine Range</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Significantly higher than international average pepper, delivering deeper thermal heat and aroma.</span>
+</div>
+<div class="bg-surface-container-lowest/80 p-5 rounded-xl shadow-sm flex flex-col gap-1">
+<span class="font-headline-sm text-headline-sm text-[#271C19]">0% Additives</span>
+<span class="font-label-tag text-label-tag uppercase text-secondary font-bold">Pure Organic Harvest</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">No sawdust, papaya seed mixtures, artificial coloring, or heavy-metal curing agents.</span>
+</div>
+</div>
+<div class="pt-2">
+<a class="inline-flex items-center gap-2 bg-[#271C19] hover:bg-[#3E2723] text-white px-6 py-3.5 rounded-full font-label-tag text-label-tag uppercase shadow-md transition-colors" href="https://wa.me/94777511933?text=I%20would%20like%20to%20order%20fresh%20Ceylon%20Black%20Pepper%20packs" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span> Order From Delkanda Warehouse (0777511933)
+            </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Comprehensive 40-Product Spice & Pepper Catalog Section -->
+<section class="w-full bg-surface-container-low py-16 md:py-24" id="products">
+<div class="max-w-[1280px] mx-auto px-margin md:px-gutter lg:px-margin-desktop flex flex-col gap-8">
+<!-- Section Header & Direct Order Intro -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+<div class="flex flex-col gap-2">
+<span class="font-label-tag text-label-tag text-secondary uppercase tracking-widest font-bold">Complete Direct-from-Hub Catalog • කුළුබඩු නාමාවලිය</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface text-3xl md:text-4xl font-extrabold">
+            Authentic Ceylon Spices &amp; Pepper Catalog (40 Varieties)
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Select your quantity and tap to order directly through WhatsApp without registration. Freshly prepared at Delkanda.</p>
+</div>
+<div class="flex items-center gap-2 bg-surface-container-highest px-4 py-2 rounded-full text-on-surface font-label-tag text-label-tag uppercase self-start md:self-auto shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">local_shipping</span>
+<span>Delkanda Hub Direct • Islandwide Cash on Delivery</span>
+</div>
+</div>
+
+<!-- Search & Filtering Bar -->
+<div class="bg-surface-container-lowest p-5 rounded-2xl shadow-sm border border-surface-variant/40 flex flex-col gap-4">
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
+<div class="relative flex-1">
+<span class="material-symbols-outlined absolute left-3.5 top-1/2 -translate-y-1/2 text-outline text-[20px]">search</span>
+<input id="catalogSearch" type="text" placeholder="Search 40+ Ceylon spices by name, Sinhala or pack size..." class="w-full pl-10 pr-4 py-2.5 bg-surface-container-low rounded-xl border border-surface-variant/60 font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-secondary/50 focus:border-secondary transition-all"/>
+</div>
+<div class="flex items-center gap-2 shrink-0">
+<span id="productCounter" class="bg-secondary-container text-on-secondary-container px-3.5 py-1.5 rounded-full font-label-tag text-label-tag font-bold uppercase">
+Showing 40 products
+</span>
+</div>
+</div>
+
+<!-- Category Filter Pills -->
+<div class="flex items-center gap-2 overflow-x-auto pb-1 select-none scrollbar-none" id="categoryFilterContainer">
+<button data-cat="all" class="filter-pill shrink-0 px-4 py-2 rounded-full font-label-tag text-label-tag uppercase transition-all bg-primary text-on-primary shadow-sm font-bold">
+සියල්ල / All (40)
+</button>
+<button data-cat="black-pepper" class="filter-pill shrink-0 px-4 py-2 rounded-full font-label-tag text-label-tag uppercase transition-all bg-surface-container-high text-on-surface hover:bg-surface-variant">
+Black Pepper &amp; Berries / ගම්මිරිස් (10)
+</button>
+<button data-cat="white-green" class="filter-pill shrink-0 px-4 py-2 rounded-full font-label-tag text-label-tag uppercase transition-all bg-surface-container-high text-on-surface hover:bg-surface-variant">
+White &amp; Green Pepper / සුදු සහ කොළ (6)
+</button>
+<button data-cat="ground-roasted" class="filter-pill shrink-0 px-4 py-2 rounded-full font-label-tag text-label-tag uppercase transition-all bg-surface-container-high text-on-surface hover:bg-surface-variant">
+Ceylon Ground &amp; Roasted / කුඩු (10)
+</button>
+<button data-cat="whole-spices" class="filter-pill shrink-0 px-4 py-2 rounded-full font-label-tag text-label-tag uppercase transition-all bg-surface-container-high text-on-surface hover:bg-surface-variant">
+Whole Spices &amp; Herbs / කුළුබඩු (8)
+</button>
+<button data-cat="bulk-export" class="filter-pill shrink-0 px-4 py-2 rounded-full font-label-tag text-label-tag uppercase transition-all bg-surface-container-high text-on-surface hover:bg-surface-variant">
+Export Grade &amp; Bulk / තොග (6)
+</button>
+</div>
+</div>
+
+<!-- 40 Product Grid: 4 cols desktop, 3 tablet, 2 mobile -->
+<div id="productGrid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-5">
+
+<!-- Product 1 -->
+<div class="product-item bg-surface-container-lowest p-4 rounded-2xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between border border-surface-variant/40 group" data-category="black-pepper" data-name="Serendib Whole Black Pepper Grade 1 550 GL 100g Pouch" data-sinhala="අංක 1 පිරිසිදු කළු ගම්මිරිස් ඇට 100g">
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between">
+<span class="bg-secondary-container text-on-secondary-container font-label-tag text-[10px] px-2 py-0.5 rounded-full uppercase font-bold">Grade 1 • 550 GL</span>
+<span class="bg-surface-container text-on-surface-variant text-[11px] font-label-tag px-2 py-0.5 rounded-md">100g</span>
+</div>
+<div class="w-full aspect-[4/3] rounded-xl bg-surface-container flex items-center justify-center relative overflow-hidden group-hover:bg-[#f3ede3] transition-colors">
+<svg class="w-16 h-16 text-[#3E2723]/70 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5v-9l6 4.5-6 4.5z" opacity="0.15"></path><circle cx="12" cy="12" r="7" fill="#2d1600"></circle><circle cx="8" cy="9" r="1.5" fill="#5c5f5b"></circle><circle cx="14" cy="10" r="1" fill="#5c5f5b"></circle><circle cx="11" cy="14" r="1.2" fill="#5c5f5b"></circle><circle cx="15" cy="14" r="1.5" fill="#5c5f5b"></circle></svg>
+<span class="absolute bottom-2 left-2 bg-[#2d1600]/80 text-white text-[10px] font-label-tag px-1.5 py-0.5 rounded">Sun-Dried</span>
+</div>
+<div>
+<h3 class="font-label-sinhala-lead text-[15px] md:text-[16px] text-on-surface font-bold leading-snug line-clamp-1">අංක 1 පිරිසිදු කළු ගම්මිරිස් ඇට</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Serendib Whole Black Pepper 100g Pouch</p>
+</div>
+<div class="pt-1">
+<span class="font-headline-md text-[20px] font-extrabold text-on-surface leading-none block">Rs. 450</span>
+<span class="text-[12px] text-secondary font-semibold">රු. 450 පමණි</span>
+</div>
+</div>
+<a class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-[#25D366] hover:bg-[#20ba59] text-white py-2 px-3 rounded-xl font-label-tag text-[12px] uppercase tracking-wide shadow-sm active:scale-95 transition-all" href="https://wa.me/94777511933?text=Hello%20Serendib%20Delkanda,%20I%20want%20to%20order%20Serendib%20Whole%20Black%20Pepper%20100g%20Pouch%20(Rs.%20450)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span> WhatsApp ඇණවුම්
+</a>
+</div>
+
+<!-- Product 2 -->
+<div class="product-item bg-surface-container-lowest p-4 rounded-2xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between border border-secondary/30 relative group" data-category="black-pepper" data-name="Serendib Whole Black Pepper Grade 1 250g Craft Bag" data-sinhala="අංක 1 කළු ගම්මිරිස් ඇට 250g">
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between">
+<span class="bg-secondary text-white font-label-tag text-[10px] px-2 py-0.5 rounded-full uppercase font-bold">★ Top Seller</span>
+<span class="bg-surface-container text-on-surface-variant text-[11px] font-label-tag px-2 py-0.5 rounded-md">250g Bag</span>
+</div>
+<div class="w-full aspect-[4/3] rounded-xl bg-surface-container flex items-center justify-center relative overflow-hidden group-hover:bg-[#f3ede3] transition-colors">
+<span class="material-symbols-outlined text-[44px] text-secondary">local_mall</span>
+<span class="absolute bottom-2 left-2 bg-secondary/80 text-white text-[10px] font-label-tag px-1.5 py-0.5 rounded">Craft Pouch</span>
+</div>
+<div>
+<h3 class="font-label-sinhala-lead text-[15px] md:text-[16px] text-on-surface font-bold leading-snug line-clamp-1">අංක 1 කළු ගම්මිරිස් ඇට</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Serendib Whole Black Pepper 250g Craft Bag</p>
+</div>
+<div class="pt-1">
+<span class="font-headline-md text-[20px] font-extrabold text-on-surface leading-none block">Rs. 1,050</span>
+<span class="text-[12px] text-secondary font-semibold">රු. 1,050 පමණි</span>
+</div>
+</div>
+<a class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-[#25D366] hover:bg-[#20ba59] text-white py-2 px-3 rounded-xl font-label-tag text-[12px] uppercase tracking-wide shadow-sm active:scale-95 transition-all" href="https://wa.me/94777511933?text=Hello%20Serendib%20Delkanda,%20I%20want%20to%20order%20Serendib%20Whole%20Black%20Pepper%20250g%20Bag%20(Rs.%201,050)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span> WhatsApp ඇණවුම්
+</a>
+</div>
+
+<!-- Product 3 -->
+<div class="product-item bg-surface-container-lowest p-4 rounded-2xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between border border-surface-variant/40 group" data-category="black-pepper" data-name="Serendib Whole Black Pepper Grade 1 500g Value Pack" data-sinhala="අගනා ඇසුරුම කළු ගම්මිරිස් 500g">
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between">
+<span class="bg-surface-container-high text-on-surface font-label-tag text-[10px] px-2 py-0.5 rounded-full uppercase font-bold">Value Saver</span>
+<span class="bg-surface-container text-on-surface-variant text-[11px] font-label-tag px-2 py-0.5 rounded-md">500g</span>
+</div>
+<div class="w-full aspect-[4/3] rounded-xl bg-surface-container flex items-center justify-center relative overflow-hidden group-hover:bg-[#f3ede3] transition-colors">
+<span class="material-symbols-outlined text-[44px] text-outline">savings</span>
+</div>
+<div>
+<h3 class="font-label-sinhala-lead text-[15px] md:text-[16px] text-on-surface font-bold leading-snug line-clamp-1">අගනා ඇසුරුම කළු ගම්මිරිස්</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Serendib Whole Black Pepper 500g Value Pack</p>
+</div>
+<div class="pt-1">
+<span class="font-headline-md text-[20px] font-extrabold text-on-surface leading-none block">Rs. 2,000</span>
+<span class="text-[12px] text-secondary font-semibold">රු. 2,000 පමණි</span>
+</div>
+</div>
+<a class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-[#25D366] hover:bg-[#20ba59] text-white py-2 px-3 rounded-xl font-label-tag text-[12px] uppercase tracking-wide shadow-sm active:scale-95 transition-all" href="https://wa.me/94777511933?text=Hello%20Serendib%20Delkanda,%20I%20want%20to%20order%20Serendib%20Whole%20Black%20Pepper%20500g%20(Rs.%202,000)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span> WhatsApp ඇණවුම්
+</a>
+</div>
+
+<!-- Product 4 -->
+<div class="product-item bg-surface-container-lowest p-4 rounded-2xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between border border-surface-variant/40 group" data-category="black-pepper" data-name="Serendib Whole Black Pepper Grade 1 1kg Master Pack" data-sinhala="තොග ඇසුරුම කළු ගම්මිරිස් 1kg">
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between">
+<span class="bg-surface-container-high text-on-surface font-label-tag text-[10px] px-2 py-0.5 rounded-full uppercase font-bold">1kg Pack</span>
+<span class="bg-surface-container text-on-surface-variant text-[11px] font-label-tag px-2 py-0.5 rounded-md">1kg</span>
+</div>
+<div class="w-full aspect-[4/3] rounded-xl bg-surface-container flex items-center justify-center relative overflow-hidden group-hover:bg-[#f3ede3] transition-colors">
+<span class="material-symbols-outlined text-[44px] text-primary">inventory_2</span>
+</div>
+<div>
+<h3 class="font-label-sinhala-lead text-[15px] md:text-[16px] text-on-surface font-bold leading-snug line-clamp-1">තොග ඇසුරුම කළු ගම්මිරිස් 1kg</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Serendib Whole Black Pepper 1kg Master Pack</p>
+</div>
+<div class="pt-1">
+<span class="font-headline-md text-[20px] font-extrabold text-on-surface leading-none block">Rs. 3,850</span>
+<span class="text-[12px] text-secondary font-semibold">රු. 3,850 පමණි</span>
+</div>
+</div>
+<a class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-[#25D366] hover:bg-[#20ba59] text-white py-2 px-3 rounded-xl font-label-tag text-[12px] uppercase tracking-wide shadow-sm active:scale-95 transition-all" href="https://wa.me/94777511933?text=Hello%20Serendib%20Delkanda,%20I%20want%20to%20order%20Serendib%20Whole%20Black%20Pepper%201kg%20(Rs.%203,850)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span> WhatsApp ඇණවුම්
+</a>
+</div>
+
+<!-- Product 5 -->
+<div class="product-item bg-surface-container-lowest p-4 rounded-2xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between border border-surface-variant/40 group" data-category="black-pepper" data-name="Serendib Coarse Crushed Black Pepper 100g Shaker" data-sinhala="කැලි ගම්මිරිස් කුඩු 100g">
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between">
+<span class="bg-secondary-container text-on-secondary-container font-label-tag text-[10px] px-2 py-0.5 rounded-full uppercase font-bold">Kitchen Shaker</span>
+<span class="bg-surface-container text-on-surface-variant text-[11px] font-label-tag px-2 py-0.5 rounded-md">100g</span>
+</div>
+<div class="w-full aspect-[4/3] rounded-xl bg-surface-container flex items-center justify-center relative overflow-hidden group-hover:bg-[#f3ede3] transition-colors">
+<span class="material-symbols-outlined text-[44px] text-outline">grain</span>
+</div>
+<div>
+<h3 class="font-label-sinhala-lead text-[15px] md:text-[16px] text-on-surface font-bold leading-snug line-clamp-1">කැලි ගම්මිරිස් කුඩු ෂේකර්</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Serendib Coarse Crushed Pepper 100g Shaker</p>
+</div>
+<div class="pt-1">
+<span class="font-headline-md text-[20px] font-extrabold text-on-surface leading-none block">Rs. 480</span>
+<span class="text-[12px] text-secondary font-semibold">රු. 480 පමණි</span>
+</div>
+</div>
+<a class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-[#25D366] hover:bg-[#20ba59] text-white py-2 px-3 rounded-xl font-label-tag text-[12px] uppercase tracking-wide shadow-sm active:scale-95 transition-all" href="https://wa.me/94777511933?text=Hello%20Serendib%20Delkanda,%20I%20want%20to%20order%20Serendib%20Coarse%20Crushed%20Pepper%20100g%20Shaker%20(Rs.%20480)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span> WhatsApp ඇණවුම්
+</a>
+</div>
+
+<!-- Product 6 -->
+<div class="product-item bg-surface-container-lowest p-4 rounded-2xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between border border-surface-variant/40 group" data-category="black-pepper" data-name="Serendib Coarse Crushed Black Pepper 250g" data-sinhala="කැලි ගම්මිරිස් 250g">
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between">
+<span class="bg-surface-container-high text-on-surface font-label-tag text-[10px] px-2 py-0.5 rounded-full uppercase font-bold">Culinary Ready</span>
+<span class="bg-surface-container text-on-surface-variant text-[11px] font-label-tag px-2 py-0.5 rounded-md">250g</span>
+</div>
+<div class="w-full aspect-[4/3] rounded-xl bg-surface-container flex items-center justify-center relative overflow-hidden group-hover:bg-[#f3ede3] transition-colors">
+<span class="material-symbols-outlined text-[44px] text-secondary">scatter_plot</span>
+</div>
+<div>
+<h3 class="font-label-sinhala-lead text-[15px] md:text-[16px] text-on-surface font-bold leading-snug line-clamp-1">කැලි ගම්මිරිස් ඇසුරුම 250g</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Serendib Coarse Crushed Black Pepper 250g</p>
+</div>
+<div class="pt-1">
+<span class="font-headline-md text-[20px] font-extrabold text-on-surface leading-none block">Rs. 1,100</span>
+<span class="text-[12px] text-secondary font-semibold">රු. 1,100 පමණි</span>
+</div>
+</div>
+<a class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-[#25D366] hover:bg-[#20ba59] text-white py-2 px-3 rounded-xl font-label-tag text-[12px] uppercase tracking-wide shadow-sm active:scale-95 transition-all" href="https://wa.me/94777511933?text=Hello%20Serendib%20Delkanda,%20I%20want%20to%20order%20Serendib%20Coarse%20Crushed%20Pepper%20250g%20(Rs.%201,100)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span> WhatsApp ඇණවුම්
+</a>
+</div>
+
+<!-- Product 7 -->
+<div class="product-item bg-surface-container-lowest p-4 rounded-2xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between border border-secondary/30 group" data-category="black-pepper" data-name="Serendib High-Piperine 6.2% Estate Reserve Pepper 100g" data-sinhala="විශේෂ පයිපරීන් ගම්මිරිස් 100g">
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between">
+<span class="bg-secondary-fixed text-on-secondary-fixed font-label-tag text-[10px] px-2 py-0.5 rounded-full uppercase font-bold">6.2% Piperine</span>
+<span class="bg-surface-container text-on-surface-variant text-[11px] font-label-tag px-2 py-0.5 rounded-md">100g</span>
+</div>
+<div class="w-full aspect-[4/3] rounded-xl bg-surface-container flex items-center justify-center relative overflow-hidden group-hover:bg-[#f3ede3] transition-colors">
+<span class="material-symbols-outlined text-[44px] text-secondary">science</span>
+</div>
+<div>
+<h3 class="font-label-sinhala-lead text-[15px] md:text-[16px] text-on-surface font-bold leading-snug line-clamp-1">විශේෂ පයිපරීන් ගම්මිරිස්</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Serendib High-Piperine 6.2% Reserve 100g</p>
+</div>
+<div class="pt-1">
+<span class="font-headline-md text-[20px] font-extrabold text-on-surface leading-none block">Rs. 650</span>
+<span class="text-[12px] text-secondary font-semibold">රු. 650 පමණි</span>
+</div>
+</div>
+<a class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-[#25D366] hover:bg-[#20ba59] text-white py-2 px-3 rounded-xl font-label-tag text-[12px] uppercase tracking-wide shadow-sm active:scale-95 transition-all" href="https://wa.me/94777511933?text=Hello%20Serendib%20Delkanda,%20I%20want%20to%20order%20High%20Piperine%20Reserve%20Pepper%20100g%20(Rs.%20650)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span> WhatsApp ඇණවුම්
+</a>
+</div>
+
+<!-- Product 8 -->
+<div class="product-item bg-surface-container-lowest p-4 rounded-2xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between border border-surface-variant/40 group" data-category="black-pepper" data-name="Serendib Organic Forest Black Pepper 200g Pouch" data-sinhala="ස්වාභාවික වන වගා ගම්මිරිස් 200g">
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between">
+<span class="bg-secondary-container text-on-secondary-container font-label-tag text-[10px] px-2 py-0.5 rounded-full uppercase font-bold">Wild Harvest</span>
+<span class="bg-surface-container text-on-surface-variant text-[11px] font-label-tag px-2 py-0.5 rounded-md">200g</span>
+</div>
+<div class="w-full aspect-[4/3] rounded-xl bg-surface-container flex items-center justify-center relative overflow-hidden group-hover:bg-[#f3ede3] transition-colors">
+<span class="material-symbols-outlined text-[44px] text-secondary">forest</span>
+</div>
+<div>
+<h3 class="font-label-sinhala-lead text-[15px] md:text-[16px] text-on-surface font-bold leading-snug line-clamp-1">ස්වාභාවික වන වගා ගම්මිරිස්</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Serendib Organic Forest Black Pepper 200g</p>
+</div>
+<div class="pt-1">
+<span class="font-headline-md text-[20px] font-extrabold text-on-surface leading-none block">Rs. 950</span>
+<span class="text-[12px] text-secondary font-semibold">රු. 950 පමණි</span>
+</div>
+</div>
+<a class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-[#25D366] hover:bg-[#20ba59] text-white py-2 px-3 rounded-xl font-label-tag text-[12px] uppercase tracking-wide shadow-sm active:scale-95 transition-all" href="https://wa.me/94777511933?text=Hello%20Serendib%20Delkanda,%20I%20want%20to%20order%20Organic%20Forest%20Pepper%20200g%20(Rs.%20950)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span> WhatsApp ඇණවුම්
+</a>
+</div>
+
+<!-- Product 9 -->
+<div class="product-item bg-surface-container-lowest p-4 rounded-2xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between border border-surface-variant/40 group" data-category="black-pepper" data-name="Serendib Hand-Sorted Bold Berry Pepper 250g" data-sinhala="තෝරාගත් ලොකු ඇට ගම්මිරිස් 250g">
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between">
+<span class="bg-surface-container-high text-on-surface font-label-tag text-[10px] px-2 py-0.5 rounded-full uppercase font-bold">Bold Berry</span>
+<span class="bg-surface-container text-on-surface-variant text-[11px] font-label-tag px-2 py-0.5 rounded-md">250g</span>
+</div>
+<div class="w-full aspect-[4/3] rounded-xl bg-surface-container flex items-center justify-center relative overflow-hidden group-hover:bg-[#f3ede3] transition-colors">
+<span class="material-symbols-outlined text-[44px] text-outline">lens</span>
+</div>
+<div>
+<h3 class="font-label-sinhala-lead text-[15px] md:text-[16px] text-on-surface font-bold leading-snug line-clamp-1">තෝරාගත් ලොකු ඇට ගම්මිරිස්</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Serendib Hand-Sorted Bold Berry 250g</p>
+</div>
+<div class="pt-1">
+<span class="font-headline-md text-[20px] font-extrabold text-on-surface leading-none block">Rs. 1,200</span>
+<span class="text-[12px] text-secondary font-semibold">රු. 1,200 පමණි</span>
+</div>
+</div>
+<a class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-[#25D366] hover:bg-[#20ba59] text-white py-2 px-3 rounded-xl font-label-tag text-[12px] uppercase tracking-wide shadow-sm active:scale-95 transition-all" href="https://wa.me/94777511933?text=Hello%20Serendib%20Delkanda,%20I%20want%20to%20order%20Bold%20Berry%20Pepper%20250g%20(Rs.%201,200)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span> WhatsApp ඇණවුම්
+</a>
+</div>
+
+<!-- Product 10 -->
+<div class="product-item bg-surface-container-lowest p-4 rounded-2xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between border border-surface-variant/40 group" data-category="black-pepper" data-name="Serendib Sun-Dried Cracked Black Pepper 500g" data-sinhala="හිරු එළියෙන් වියළූ කැඩූ ගම්මිරිස් 500g">
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between">
+<span class="bg-secondary-container text-on-secondary-container font-label-tag text-[10px] px-2 py-0.5 rounded-full uppercase font-bold">Sun Cured</span>
+<span class="bg-surface-container text-on-surface-variant text-[11px] font-label-tag px-2 py-0.5 rounded-md">500g</span>
+</div>
+<div class="w-full aspect-[4/3] rounded-xl bg-surface-container flex items-center justify-center relative overflow-hidden group-hover:bg-[#f3ede3] transition-colors">
+<span class="material-symbols-outlined text-[44px] text-secondary">wb_sunny</span>
+</div>
+<div>
+<h3 class="font-label-sinhala-lead text-[15px] md:text-[16px] text-on-surface font-bold leading-snug line-clamp-1">හිරු එළියෙන් වියළූ කැඩූ ගම්මිරිස්</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Serendib Sun-Dried Cracked Pepper 500g</p>
+</div>
+<div class="pt-1">
+<span class="font-headline-md text-[20px] font-extrabold text-on-surface leading-none block">Rs. 2,150</span>
+<span class="text-[12px] text-secondary font-semibold">රු. 2,150 පමණි</span>
+</div>
+</div>
+<a class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-[#25D366] hover:bg-[#20ba59] text-white py-2 px-3 rounded-xl font-label-tag text-[12px] uppercase tracking-wide shadow-sm active:scale-95 transition-all" href="https://wa.me/94777511933?text=Hello%20Serendib%20Delkanda,%20I%20want%20to%20order%20Sun-Dried%20Cracked%20Pepper%20500g%20(Rs.%202,150)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span> WhatsApp ඇණවුම්
+</a>
+</div>
+
+<!-- Product 11 (White & Green) -->
+<div class="product-item bg-surface-container-lowest p-4 rounded-2xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between border border-surface-variant/40 group" data-category="white-green" data-name="Serendib Ceylon White Pepper Whole Corns 100g" data-sinhala="පිරිසිදු සුදු ගම්මිරිස් ඇට 100g">
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between">
+<span class="bg-surface-container-high text-on-surface font-label-tag text-[10px] px-2 py-0.5 rounded-full uppercase font-bold">Pure White</span>
+<span class="bg-surface-container text-on-surface-variant text-[11px] font-label-tag px-2 py-0.5 rounded-md">100g</span>
+</div>
+<div class="w-full aspect-[4/3] rounded-xl bg-surface-container flex items-center justify-center relative overflow-hidden group-hover:bg-[#f3ede3] transition-colors">
+<span class="material-symbols-outlined text-[44px] text-slate-400">blur_on</span>
+</div>
+<div>
+<h3 class="font-label-sinhala-lead text-[15px] md:text-[16px] text-on-surface font-bold leading-snug line-clamp-1">පිරිසිදු සුදු ගම්මිරිස් ඇට</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Serendib Ceylon White Pepper Whole 100g</p>
+</div>
+<div class="pt-1">
+<span class="font-headline-md text-[20px] font-extrabold text-on-surface leading-none block">Rs. 750</span>
+<span class="text-[12px] text-secondary font-semibold">රු. 750 පමණි</span>
+</div>
+</div>
+<a class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-[#25D366] hover:bg-[#20ba59] text-white py-2 px-3 rounded-xl font-label-tag text-[12px] uppercase tracking-wide shadow-sm active:scale-95 transition-all" href="https://wa.me/94777511933?text=Hello%20Serendib%20Delkanda,%20I%20want%20to%20order%20Ceylon%20White%20Pepper%20Whole%20100g%20(Rs.%20750)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span> WhatsApp ඇණවුම්
+</a>
+</div>
+
+<!-- Product 12 -->
+<div class="product-item bg-surface-container-lowest p-4 rounded-2xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between border border-surface-variant/40 group" data-category="white-green" data-name="Serendib Ceylon White Pepper Whole Corns 250g" data-sinhala="සුදු ගම්මිරිස් ඇට 250g">
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between">
+<span class="bg-surface-container-high text-on-surface font-label-tag text-[10px] px-2 py-0.5 rounded-full uppercase font-bold">Grade A</span>
+<span class="bg-surface-container text-on-surface-variant text-[11px] font-label-tag px-2 py-0.5 rounded-md">250g</span>
+</div>
+<div class="w-full aspect-[4/3] rounded-xl bg-surface-container flex items-center justify-center relative overflow-hidden group-hover:bg-[#f3ede3] transition-colors">
+<span class="material-symbols-outlined text-[44px] text-slate-500">radio_button_checked</span>
+</div>
+<div>
+<h3 class="font-label-sinhala-lead text-[15px] md:text-[16px] text-on-surface font-bold leading-snug line-clamp-1">සුදු ගම්මිරිස් ඇට 250g</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Serendib Ceylon White Pepper Whole 250g</p>
+</div>
+<div class="pt-1">
+<span class="font-headline-md text-[20px] font-extrabold text-on-surface leading-none block">Rs. 1,800</span>
+<span class="text-[12px] text-secondary font-semibold">රු. 1,800 පමණි</span>
+</div>
+</div>
+<a class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-[#25D366] hover:bg-[#20ba59] text-white py-2 px-3 rounded-xl font-label-tag text-[12px] uppercase tracking-wide shadow-sm active:scale-95 transition-all" href="https://wa.me/94777511933?text=Hello%20Serendib%20Delkanda,%20I%20want%20to%20order%20Ceylon%20White%20Pepper%20Whole%20250g%20(Rs.%201,800)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span> WhatsApp ඇණවුම්
+</a>
+</div>
+
+<!-- Product 13 -->
+<div class="product-item bg-surface-container-lowest p-4 rounded-2xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between border border-surface-variant/40 group" data-category="white-green" data-name="Serendib Fine White Pepper Powder 100g Jar" data-sinhala="සිහින් සුදු ගම්මිරිස් කුඩු 100g">
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between">
+<span class="bg-surface-container-high text-on-surface font-label-tag text-[10px] px-2 py-0.5 rounded-full uppercase font-bold">Gourmet Jar</span>
+<span class="bg-surface-container text-on-surface-variant text-[11px] font-label-tag px-2 py-0.5 rounded-md">100g Jar</span>
+</div>
+<div class="w-full aspect-[4/3] rounded-xl bg-surface-container flex items-center justify-center relative overflow-hidden group-hover:bg-[#f3ede3] transition-colors">
+<span class="material-symbols-outlined text-[44px] text-outline">water_drop</span>
+</div>
+<div>
+<h3 class="font-label-sinhala-lead text-[15px] md:text-[16px] text-on-surface font-bold leading-snug line-clamp-1">සිහින් සුදු ගම්මිරිස් කුඩු</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Serendib Fine White Pepper Powder 100g Jar</p>
+</div>
+<div class="pt-1">
+<span class="font-headline-md text-[20px] font-extrabold text-on-surface leading-none block">Rs. 800</span>
+<span class="text-[12px] text-secondary font-semibold">රු. 800 පමණි</span>
+</div>
+</div>
+<a class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-[#25D366] hover:bg-[#20ba59] text-white py-2 px-3 rounded-xl font-label-tag text-[12px] uppercase tracking-wide shadow-sm active:scale-95 transition-all" href="https://wa.me/94777511933?text=Hello%20Serendib%20Delkanda,%20I%20want%20to%20order%20Fine%20White%20Pepper%20Powder%20100g%20(Rs.%20800)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span> WhatsApp ඇණවුම්
+</a>
+</div>
+
+<!-- Product 14 -->
+<div class="product-item bg-surface-container-lowest p-4 rounded-2xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between border border-surface-variant/40 group" data-category="white-green" data-name="Serendib Dehydrated Green Peppercorns 75g" data-sinhala="විජලනය කළ කොළ ගම්මිරිස් 75g">
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between">
+<span class="bg-secondary-container text-on-secondary-container font-label-tag text-[10px] px-2 py-0.5 rounded-full uppercase font-bold">Freeze Cured</span>
+<span class="bg-surface-container text-on-surface-variant text-[11px] font-label-tag px-2 py-0.5 rounded-md">75g</span>
+</div>
+<div class="w-full aspect-[4/3] rounded-xl bg-surface-container flex items-center justify-center relative overflow-hidden group-hover:bg-[#f3ede3] transition-colors">
+<span class="material-symbols-outlined text-[44px] text-secondary">spa</span>
+</div>
+<div>
+<h3 class="font-label-sinhala-lead text-[15px] md:text-[16px] text-on-surface font-bold leading-snug line-clamp-1">විජලනය කළ කොළ ගම්මිරිස්</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Serendib Dehydrated Green Peppercorns 75g</p>
+</div>
+<div class="pt-1">
+<span class="font-headline-md text-[20px] font-extrabold text-on-surface leading-none block">Rs. 620</span>
+<span class="text-[12px] text-secondary font-semibold">රු. 620 පමණි</span>
+</div>
+</div>
+<a class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-[#25D366] hover:bg-[#20ba59] text-white py-2 px-3 rounded-xl font-label-tag text-[12px] uppercase tracking-wide shadow-sm active:scale-95 transition-all" href="https://wa.me/94777511933?text=Hello%20Serendib%20Delkanda,%20I%20want%20to%20order%20Green%20Peppercorns%2075g%20(Rs.%20620)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span> WhatsApp ඇණවුම්
+</a>
+</div>
+
+<!-- Product 15 -->
+<div class="product-item bg-surface-container-lowest p-4 rounded-2xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between border border-surface-variant/40 group" data-category="white-green" data-name="Serendib Gourmet Tri-Color Peppercorn Blend 150g" data-sinhala="තෙවර්ණ ගම්මිරිස් මිශ්‍රණය 150g">
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between">
+<span class="bg-surface-container-high text-on-surface font-label-tag text-[10px] px-2 py-0.5 rounded-full uppercase font-bold">Chef's Blend</span>
+<span class="bg-surface-container text-on-surface-variant text-[11px] font-label-tag px-2 py-0.5 rounded-md">150g</span>
+</div>
+<div class="w-full aspect-[4/3] rounded-xl bg-surface-container flex items-center justify-center relative overflow-hidden group-hover:bg-[#f3ede3] transition-colors">
+<span class="material-symbols-outlined text-[44px] text-amber-700">palette</span>
+</div>
+<div>
+<h3 class="font-label-sinhala-lead text-[15px] md:text-[16px] text-on-surface font-bold leading-snug line-clamp-1">තෙවර්ණ ගම්මිරිස් මිශ්‍රණය</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Serendib Tri-Color Peppercorn Blend 150g</p>
+</div>
+<div class="pt-1">
+<span class="font-headline-md text-[20px] font-extrabold text-on-surface leading-none block">Rs. 1,150</span>
+<span class="text-[12px] text-secondary font-semibold">රු. 1,150 පමණි</span>
+</div>
+</div>
+<a class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-[#25D366] hover:bg-[#20ba59] text-white py-2 px-3 rounded-xl font-label-tag text-[12px] uppercase tracking-wide shadow-sm active:scale-95 transition-all" href="https://wa.me/94777511933?text=Hello%20Serendib%20Delkanda,%20I%20want%20to%20order%20Tri-Color%20Blend%20150g%20(Rs.%201,150)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span> WhatsApp ඇණවුම්
+</a>
+</div>
+
+<!-- Product 16 -->
+<div class="product-item bg-surface-container-lowest p-4 rounded-2xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between border border-surface-variant/40 group" data-category="white-green" data-name="Serendib Premium White Pepper 500g Pack" data-sinhala="විශේෂ සුදු ගම්මිරිස් 500g">
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between">
+<span class="bg-surface-container-high text-on-surface font-label-tag text-[10px] px-2 py-0.5 rounded-full uppercase font-bold">Premium Bulk</span>
+<span class="bg-surface-container text-on-surface-variant text-[11px] font-label-tag px-2 py-0.5 rounded-md">500g</span>
+</div>
+<div class="w-full aspect-[4/3] rounded-xl bg-surface-container flex items-center justify-center relative overflow-hidden group-hover:bg-[#f3ede3] transition-colors">
+<span class="material-symbols-outlined text-[44px] text-slate-400">all_inclusive</span>
+</div>
+<div>
+<h3 class="font-label-sinhala-lead text-[15px] md:text-[16px] text-on-surface font-bold leading-snug line-clamp-1">විශේෂ සුදු ගම්මිරිස් 500g</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Serendib Premium White Pepper 500g</p>
+</div>
+<div class="pt-1">
+<span class="font-headline-md text-[20px] font-extrabold text-on-surface leading-none block">Rs. 3,500</span>
+<span class="text-[12px] text-secondary font-semibold">රු. 3,500 පමණි</span>
+</div>
+</div>
+<a class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-[#25D366] hover:bg-[#20ba59] text-white py-2 px-3 rounded-xl font-label-tag text-[12px] uppercase tracking-wide shadow-sm active:scale-95 transition-all" href="https://wa.me/94777511933?text=Hello%20Serendib%20Delkanda,%20I%20want%20to%20order%20White%20Pepper%20500g%20(Rs.%203,500)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span> WhatsApp ඇණවුම්
+</a>
+</div>
+
+<!-- Product 17 (Ceylon Ground & Roasted) -->
+<div class="product-item bg-surface-container-lowest p-4 rounded-2xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between border border-surface-variant/40 group" data-category="ground-roasted" data-name="Serendib Roasted Black Pepper Powder 100g" data-sinhala="බැදපු කළු ගම්මිරිස් කුඩු 100g">
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between">
+<span class="bg-[#2d1600] text-white font-label-tag text-[10px] px-2 py-0.5 rounded-full uppercase font-bold">Slow Roasted</span>
+<span class="bg-surface-container text-on-surface-variant text-[11px] font-label-tag px-2 py-0.5 rounded-md">100g</span>
+</div>
+<div class="w-full aspect-[4/3] rounded-xl bg-surface-container flex items-center justify-center relative overflow-hidden group-hover:bg-[#f3ede3] transition-colors">
+<span class="material-symbols-outlined text-[44px] text-[#4E342E]">local_fire_department</span>
+</div>
+<div>
+<h3 class="font-label-sinhala-lead text-[15px] md:text-[16px] text-on-surface font-bold leading-snug line-clamp-1">බැදපු කළු ගම්මිරිස් කුඩු</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Serendib Roasted Black Pepper Powder 100g</p>
+</div>
+<div class="pt-1">
+<span class="font-headline-md text-[20px] font-extrabold text-on-surface leading-none block">Rs. 460</span>
+<span class="text-[12px] text-secondary font-semibold">රු. 460 පමණි</span>
+</div>
+</div>
+<a class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-[#25D366] hover:bg-[#20ba59] text-white py-2 px-3 rounded-xl font-label-tag text-[12px] uppercase tracking-wide shadow-sm active:scale-95 transition-all" href="https://wa.me/94777511933?text=Hello%20Serendib%20Delkanda,%20I%20want%20to%20order%20Roasted%20Black%20Pepper%20100g%20(Rs.%20460)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span> WhatsApp ඇණවුම්
+</a>
+</div>
+
+<!-- Product 18 -->
+<div class="product-item bg-surface-container-lowest p-4 rounded-2xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between border border-surface-variant/40 group" data-category="ground-roasted" data-name="Serendib Roasted Black Pepper Powder 250g" data-sinhala="බැදපු කළු ගම්මිරිස් කුඩු 250g">
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between">
+<span class="bg-surface-container-high text-on-surface font-label-tag text-[10px] px-2 py-0.5 rounded-full uppercase font-bold">Aromatic</span>
+<span class="bg-surface-container text-on-surface-variant text-[11px] font-label-tag px-2 py-0.5 rounded-md">250g</span>
+</div>
+<div class="w-full aspect-[4/3] rounded-xl bg-surface-container flex items-center justify-center relative overflow-hidden group-hover:bg-[#f3ede3] transition-colors">
+<span class="material-symbols-outlined text-[44px] text-[#4E342E]">compost</span>
+</div>
+<div>
+<h3 class="font-label-sinhala-lead text-[15px] md:text-[16px] text-on-surface font-bold leading-snug line-clamp-1">බැදපු කළු ගම්මිරිස් කුඩු 250g</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Serendib Roasted Black Pepper Powder 250g</p>
+</div>
+<div class="pt-1">
+<span class="font-headline-md text-[20px] font-extrabold text-on-surface leading-none block">Rs. 1,080</span>
+<span class="text-[12px] text-secondary font-semibold">රු. 1,080 පමණි</span>
+</div>
+</div>
+<a class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-[#25D366] hover:bg-[#20ba59] text-white py-2 px-3 rounded-xl font-label-tag text-[12px] uppercase tracking-wide shadow-sm active:scale-95 transition-all" href="https://wa.me/94777511933?text=Hello%20Serendib%20Delkanda,%20I%20want%20to%20order%20Roasted%20Pepper%20Powder%20250g%20(Rs.%201,080)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span> WhatsApp ඇණවුම්
+</a>
+</div>
+
+<!-- Product 19 -->
+<div class="product-item bg-surface-container-lowest p-4 rounded-2xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between border border-surface-variant/40 group" data-category="ground-roasted" data-name="Serendib Traditional Roasted Curry Powder 200g" data-sinhala="සාම්ප්‍රදායික බැදපු තුනපහ කුඩු 200g">
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between">
+<span class="bg-amber-600 text-white font-label-tag text-[10px] px-2 py-0.5 rounded-full uppercase font-bold">Ceylon Heritage</span>
+<span class="bg-surface-container text-on-surface-variant text-[11px] font-label-tag px-2 py-0.5 rounded-md">200g</span>
+</div>
+<div class="w-full aspect-[4/3] rounded-xl bg-surface-container flex items-center justify-center relative overflow-hidden group-hover:bg-[#f3ede3] transition-colors">
+<span class="material-symbols-outlined text-[44px] text-amber-700">skillet</span>
+</div>
+<div>
+<h3 class="font-label-sinhala-lead text-[15px] md:text-[16px] text-on-surface font-bold leading-snug line-clamp-1">සාම්ප්‍රදායික බැදපු තුනපහ කුඩු</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Traditional Roasted Curry Powder 200g</p>
+</div>
+<div class="pt-1">
+<span class="font-headline-md text-[20px] font-extrabold text-on-surface leading-none block">Rs. 580</span>
+<span class="text-[12px] text-secondary font-semibold">රු. 580 පමණි</span>
+</div>
+</div>
+<a class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-[#25D366] hover:bg-[#20ba59] text-white py-2 px-3 rounded-xl font-label-tag text-[12px] uppercase tracking-wide shadow-sm active:scale-95 transition-all" href="https://wa.me/94777511933?text=Hello%20Serendib%20Delkanda,%20I%20want%20to%20order%20Roasted%20Curry%20Powder%20200g%20(Rs.%20580)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span> WhatsApp ඇණවුම්
+</a>
+</div>
+
+<!-- Product 20 -->
+<div class="product-item bg-surface-container-lowest p-4 rounded-2xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between border border-surface-variant/40 group" data-category="ground-roasted" data-name="Serendib Raw Curry Powder නොබැදපු තුනපහ 200g" data-sinhala="නොබැදපු තුනපහ කුඩු 200g">
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between">
+<span class="bg-surface-container-high text-on-surface font-label-tag text-[10px] px-2 py-0.5 rounded-full uppercase font-bold">Unroasted</span>
+<span class="bg-surface-container text-on-surface-variant text-[11px] font-label-tag px-2 py-0.5 rounded-md">200g</span>
+</div>
+<div class="w-full aspect-[4/3] rounded-xl bg-surface-container flex items-center justify-center relative overflow-hidden group-hover:bg-[#f3ede3] transition-colors">
+<span class="material-symbols-outlined text-[44px] text-secondary">ramen_dining</span>
+</div>
+<div>
+<h3 class="font-label-sinhala-lead text-[15px] md:text-[16px] text-on-surface font-bold leading-snug line-clamp-1">නොබැදපු අමු තුනපහ කුඩු</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Serendib Raw Curry Powder 200g</p>
+</div>
+<div class="pt-1">
+<span class="font-headline-md text-[20px] font-extrabold text-on-surface leading-none block">Rs. 520</span>
+<span class="text-[12px] text-secondary font-semibold">රු. 520 පමණි</span>
+</div>
+</div>
+<a class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-[#25D366] hover:bg-[#20ba59] text-white py-2 px-3 rounded-xl font-label-tag text-[12px] uppercase tracking-wide shadow-sm active:scale-95 transition-all" href="https://wa.me/94777511933?text=Hello%20Serendib%20Delkanda,%20I%20want%20to%20order%20Raw%20Curry%20Powder%20200g%20(Rs.%20520)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span> WhatsApp ඇණවුම්
+</a>
+</div>
+
+<!-- Product 21 -->
+<div class="product-item bg-surface-container-lowest p-4 rounded-2xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between border border-surface-variant/40 group" data-category="ground-roasted" data-name="Serendib Jaffna Extra-Spicy Roasted Curry Powder 200g" data-sinhala="යාපනේ රෝස්ටඩ් කරි කුඩු 200g">
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between">
+<span class="bg-red-700 text-white font-label-tag text-[10px] px-2 py-0.5 rounded-full uppercase font-bold">Extra Spicy</span>
+<span class="bg-surface-container text-on-surface-variant text-[11px] font-label-tag px-2 py-0.5 rounded-md">200g</span>
+</div>
+<div class="w-full aspect-[4/3] rounded-xl bg-surface-container flex items-center justify-center relative overflow-hidden group-hover:bg-[#f3ede3] transition-colors">
+<span class="material-symbols-outlined text-[44px] text-red-600">whatshot</span>
+</div>
+<div>
+<h3 class="font-label-sinhala-lead text-[15px] md:text-[16px] text-on-surface font-bold leading-snug line-clamp-1">යාපනේ රෝස්ටඩ් කරි කුඩු</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Serendib Jaffna Extra-Spicy Blend 200g</p>
+</div>
+<div class="pt-1">
+<span class="font-headline-md text-[20px] font-extrabold text-on-surface leading-none block">Rs. 650</span>
+<span class="text-[12px] text-secondary font-semibold">රු. 650 පමණි</span>
+</div>
+</div>
+<a class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-[#25D366] hover:bg-[#20ba59] text-white py-2 px-3 rounded-xl font-label-tag text-[12px] uppercase tracking-wide shadow-sm active:scale-95 transition-all" href="https://wa.me/94777511933?text=Hello%20Serendib%20Delkanda,%20I%20want%20to%20order%20Jaffna%20Curry%20Powder%20200g%20(Rs.%20650)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span> WhatsApp ඇණවුම්
+</a>
+</div>
+
+<!-- Product 22 -->
+<div class="product-item bg-surface-container-lowest p-4 rounded-2xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between border border-surface-variant/40 group" data-category="ground-roasted" data-name="Serendib Pure Ceylon Turmeric Powder 100g" data-sinhala="පිරිසිදු ලංකා කහ කුඩු 100g">
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between">
+<span class="bg-amber-100 text-amber-900 font-label-tag text-[10px] px-2 py-0.5 rounded-full uppercase font-bold">100% Curcumin</span>
+<span class="bg-surface-container text-on-surface-variant text-[11px] font-label-tag px-2 py-0.5 rounded-md">100g</span>
+</div>
+<div class="w-full aspect-[4/3] rounded-xl bg-surface-container flex items-center justify-center relative overflow-hidden group-hover:bg-[#f3ede3] transition-colors">
+<span class="material-symbols-outlined text-[44px] text-amber-500">brightness_5</span>
+</div>
+<div>
+<h3 class="font-label-sinhala-lead text-[15px] md:text-[16px] text-on-surface font-bold leading-snug line-clamp-1">පිරිසිදු ලංකා කහ කුඩු</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Serendib Pure Ceylon Turmeric 100g</p>
+</div>
+<div class="pt-1">
+<span class="font-headline-md text-[20px] font-extrabold text-on-surface leading-none block">Rs. 420</span>
+<span class="text-[12px] text-secondary font-semibold">රු. 420 පමණි</span>
+</div>
+</div>
+<a class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-[#25D366] hover:bg-[#20ba59] text-white py-2 px-3 rounded-xl font-label-tag text-[12px] uppercase tracking-wide shadow-sm active:scale-95 transition-all" href="https://wa.me/94777511933?text=Hello%20Serendib%20Delkanda,%20I%20want%20to%20order%20Ceylon%20Turmeric%20100g%20(Rs.%20420)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span> WhatsApp ඇණවුම්
+</a>
+</div>
+
+<!-- Product 23 -->
+<div class="product-item bg-surface-container-lowest p-4 rounded-2xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between border border-surface-variant/40 group" data-category="ground-roasted" data-name="Serendib Hot Chilli Flakes Crushed Kochchi 100g" data-sinhala="කෑලි මිරිස් 100g">
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between">
+<span class="bg-red-100 text-red-800 font-label-tag text-[10px] px-2 py-0.5 rounded-full uppercase font-bold">Spicy Kochchi</span>
+<span class="bg-surface-container text-on-surface-variant text-[11px] font-label-tag px-2 py-0.5 rounded-md">100g</span>
+</div>
+<div class="w-full aspect-[4/3] rounded-xl bg-surface-container flex items-center justify-center relative overflow-hidden group-hover:bg-[#f3ede3] transition-colors">
+<span class="material-symbols-outlined text-[44px] text-red-500">flare</span>
+</div>
+<div>
+<h3 class="font-label-sinhala-lead text-[15px] md:text-[16px] text-on-surface font-bold leading-snug line-clamp-1">කෑලි මිරිස් සහ කොච්චි මිශ්‍රණය</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Serendib Hot Chilli Flakes 100g</p>
+</div>
+<div class="pt-1">
+<span class="font-headline-md text-[20px] font-extrabold text-on-surface leading-none block">Rs. 390</span>
+<span class="text-[12px] text-secondary font-semibold">රු. 390 පමණි</span>
+</div>
+</div>
+<a class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-[#25D366] hover:bg-[#20ba59] text-white py-2 px-3 rounded-xl font-label-tag text-[12px] uppercase tracking-wide shadow-sm active:scale-95 transition-all" href="https://wa.me/94777511933?text=Hello%20Serendib%20Delkanda,%20I%20want%20to%20order%20Hot%20Chilli%20Flakes%20100g%20(Rs.%20390)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span> WhatsApp ඇණවුම්
+</a>
+</div>
+
+<!-- Product 24 -->
+<div class="product-item bg-surface-container-lowest p-4 rounded-2xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between border border-surface-variant/40 group" data-category="ground-roasted" data-name="Serendib Extra Hot Ceylon Chilli Powder 200g" data-sinhala="ලංකා මිරිස් කුඩු 200g">
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between">
+<span class="bg-red-700 text-white font-label-tag text-[10px] px-2 py-0.5 rounded-full uppercase font-bold">Fiery Red</span>
+<span class="bg-surface-container text-on-surface-variant text-[11px] font-label-tag px-2 py-0.5 rounded-md">200g</span>
+</div>
+<div class="w-full aspect-[4/3] rounded-xl bg-surface-container flex items-center justify-center relative overflow-hidden group-hover:bg-[#f3ede3] transition-colors">
+<span class="material-symbols-outlined text-[44px] text-red-600">mode_heat</span>
+</div>
+<div>
+<h3 class="font-label-sinhala-lead text-[15px] md:text-[16px] text-on-surface font-bold leading-snug line-clamp-1">පිරිසිදු ලංකා මිරිස් කුඩු</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Serendib Extra Hot Chilli Powder 200g</p>
+</div>
+<div class="pt-1">
+<span class="font-headline-md text-[20px] font-extrabold text-on-surface leading-none block">Rs. 480</span>
+<span class="text-[12px] text-secondary font-semibold">රු. 480 පමණි</span>
+</div>
+</div>
+<a class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-[#25D366] hover:bg-[#20ba59] text-white py-2 px-3 rounded-xl font-label-tag text-[12px] uppercase tracking-wide shadow-sm active:scale-95 transition-all" href="https://wa.me/94777511933?text=Hello%20Serendib%20Delkanda,%20I%20want%20to%20order%20Extra%20Hot%20Chilli%20Powder%20200g%20(Rs.%20480)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span> WhatsApp ඇණවුම්
+</a>
+</div>
+
+<!-- Product 25 -->
+<div class="product-item bg-surface-container-lowest p-4 rounded-2xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between border border-surface-variant/40 group" data-category="ground-roasted" data-name="Serendib Roasted Fenugreek Cumin Powder 100g" data-sinhala="බැදපු උළුහාල් සහ සූදුරු 100g">
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between">
+<span class="bg-surface-container-high text-on-surface font-label-tag text-[10px] px-2 py-0.5 rounded-full uppercase font-bold">Ayur Digestive</span>
+<span class="bg-surface-container text-on-surface-variant text-[11px] font-label-tag px-2 py-0.5 rounded-md">100g</span>
+</div>
+<div class="w-full aspect-[4/3] rounded-xl bg-surface-container flex items-center justify-center relative overflow-hidden group-hover:bg-[#f3ede3] transition-colors">
+<span class="material-symbols-outlined text-[44px] text-amber-800">medication</span>
+</div>
+<div>
+<h3 class="font-label-sinhala-lead text-[15px] md:text-[16px] text-on-surface font-bold leading-snug line-clamp-1">බැදපු උළුහාල් සහ සූදුරු කුඩු</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Serendib Fenugreek &amp; Cumin Blend 100g</p>
+</div>
+<div class="pt-1">
+<span class="font-headline-md text-[20px] font-extrabold text-on-surface leading-none block">Rs. 380</span>
+<span class="text-[12px] text-secondary font-semibold">රු. 380 පමණි</span>
+</div>
+</div>
+<a class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-[#25D366] hover:bg-[#20ba59] text-white py-2 px-3 rounded-xl font-label-tag text-[12px] uppercase tracking-wide shadow-sm active:scale-95 transition-all" href="https://wa.me/94777511933?text=Hello%20Serendib%20Delkanda,%20I%20want%20to%20order%20Fenugreek%20Cumin%20Powder%20100g%20(Rs.%20380)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span> WhatsApp ඇණවුම්
+</a>
+</div>
+
+<!-- Product 26 -->
+<div class="product-item bg-surface-container-lowest p-4 rounded-2xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between border border-surface-variant/40 group" data-category="ground-roasted" data-name="Serendib Black Pepper Sea Salt Seasoning Grinder 120g" data-sinhala="ගම්මිරිස් සහ මුහුදු ලුණු ග්‍රයින්ඩරය 120g">
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between">
+<span class="bg-secondary-container text-on-secondary-container font-label-tag text-[10px] px-2 py-0.5 rounded-full uppercase font-bold">Built-in Grinder</span>
+<span class="bg-surface-container text-on-surface-variant text-[11px] font-label-tag px-2 py-0.5 rounded-md">120g</span>
+</div>
+<div class="w-full aspect-[4/3] rounded-xl bg-surface-container flex items-center justify-center relative overflow-hidden group-hover:bg-[#f3ede3] transition-colors">
+<span class="material-symbols-outlined text-[44px] text-primary">rotate_right</span>
+</div>
+<div>
+<h3 class="font-label-sinhala-lead text-[15px] md:text-[16px] text-on-surface font-bold leading-snug line-clamp-1">ගම්මිරිස් සහ මුහුදු ලුණු ග්‍රයින්ඩරය</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1">Serendib Pepper &amp; Sea Salt Grinder 120g</p>
+</div>
+<div class="pt-1">
+<span class="font-headline-md text-[20px] font-extrabold text-on-surface leading-none block">Rs. 790</span>
+<span class="text-[12px] text-secondary font-semibold">රු. 790 පමණි</span>
+</div>
+</div>
+<a class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-[#25D366] hover:bg-[#20ba59] text-white py-2 px-3 rounded-xl font-label-tag text-[12px] uppercase tracking-wide shadow-sm active:scale-95 transition-all" href="https://wa.me/94777511933?text=Hello%20Serendib%20Delkanda,%20I%20want%20to%20order%20Pepper%20Sea%20Salt%20Grinder%20120g%20(Rs.%20790)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span> WhatsApp ඇණවුම්
+</a>
+</div>
+
+<!-- Product 27 (Whole Spices & Herbs) -->
+<div class="product-item bg-surface-container-lowest p-4 rounded-2xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between border border-secondary/30 group" data-category="whole-spices" data-name="Serendib Alba Ceylon Cinnamon Quills Grade A 100g" data-sinhala="ඇල්බා කුරුඳු පොතු 100g">
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between">
+<span class="bg-amber-600 text-white font-label-tag text-[10px] px-2 py-0.5 rounded-full uppercase font-bold">ALBA Grade</span>
+<span class="bg-surface-container text-on-surface-variant text-[11px] font-label-tag px-2 py-0.5 rounded-md">100g</span>
+</div>
+<div class="w-full aspect-[4/3] rounded-xl bg-surface-container flex items-center justify-center relative overflow-hidden group-hover:bg-[#f3ede3] transition-colors">
+<span class="material-symbols-outlined text-[44px] text-amber-800">line_style</span>
+</div>
+<div>
+<h3 class="font-label-sinhala-lead text-[15px] md:text-[16px] text-on-surface font-bold leading-snug line-clamp-1">ඇල්බා
