@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&amp;family=Inter:wght@400;500;600&amp;family=Noto+Sans+Sinhala:wght@400;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "surface-container-low": "#f6f3ec", "tertiary-fixed": "#ffdcbf", "tertiary-container": "#2d1600", "surface-variant": "#e5e2db", "error-container": "#ffdad6", "on-background": "#1c1c18", "surface-bright": "#fcf9f2", "surface-dim": "#dcdad3", "surface-container-high": "#ebe8e1", "on-secondary-fixed-variant": "#005322", "surface-tint": "#5c5f5b", "on-surface-variant": "#444843", "surface-container-lowest": "#ffffff", "primary-container": "#191c19", "surface-container": "#f1eee7", "on-secondary-container": "#007232", "surface": "#fcf9f2", "on-tertiary-container": "#a87b4f", "inverse-surface": "#31312c", "outline": "#757873", "tertiary-fixed-dim": "#f1bc8c", "on-error": "#ffffff", "error": "#ba1a1a", "primary-fixed": "#e1e3de", "surface-container-highest": "#e5e2db", "on-secondary-fixed": "#002109", "on-primary-fixed-variant": "#454844", "inverse-primary": "#c5c7c2", "primary-fixed-dim": "#c5c7c2", "on-primary-container": "#828580", "inverse-on-surface": "#f3f0e9", "on-primary-fixed": "#191c19", "secondary-fixed-dim": "#3de273", "on-primary": "#ffffff", "on-surface": "#1c1c18", "on-tertiary-fixed-variant": "#633f19", "on-tertiary": "#ffffff", "background": "#fcf9f2", "secondary-fixed": "#66ff8e", "primary": "#000000", "secondary": "#006d2f", "tertiary": "#000000", "on-tertiary-fixed": "#2d1600", "on-error-container": "#93000a", "secondary-container": "#5dfd8a", "on-secondary": "#ffffff", "outline-variant": "#c5c7c2" }, borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, spacing: { "gutter-desktop": "2rem", "space-sm": "0.5rem", "space-md": "1rem", "space-xs": "0.25rem", "margin": "1rem", "space-xl": "3rem", "gutter": "1.25rem", "margin-desktop": "4rem", "space-lg": "1.75rem" }, fontFamily: { "headline-lg": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "display-hero": ["Plus Jakarta Sans"], "label-sinhala-body": ["Noto Sans Sinhala"], "body-md": ["Inter"], "label-tag": ["Plus Jakarta Sans"], "body-sm": ["Inter"], "headline-md": ["Plus Jakarta Sans"], "display-hero-mobile": ["Plus Jakarta Sans"], "body-lg": ["Inter"], "label-sinhala-lead": ["Noto Sans Sinhala"], "headline-sm": ["Plus Jakarta Sans"], "label-currency": ["Plus Jakarta Sans"] }, fontSize: { "headline-lg": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-lg-mobile": ["28px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "display-hero": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "800" }], "label-sinhala-body": ["15px", { "lineHeight": "24px", "fontWeight": "400" }], "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "label-tag": ["12px", { "lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "700" }], "body-sm": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "display-hero-mobile": ["38px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }], "label-sinhala-lead": ["20px", { "lineHeight": "32px", "fontWeight": "700" }], "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "label-currency": ["22px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "800" }] } } } };</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style></head><body class="bg-surface font-body-md text-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-margin flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm"><img alt="Brand logo. - Primary color: #111411
+- Font: plusJakartaSans
+- Mode: light
+- Roundness: rounded-sm
+" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Wn_v1C699QflQTO3lD81zYrE7FogrPYQCZQg0w9hr2pdJjA_Asim1MSsYzJ7SDYHbz834nqYGztV4gKH-2k0ChpZeywu0T7Nq31lj2GOBsgE0Cl5qwhZTou4pkwwOq_MG-fHC_vb5neH1Ul-bgL5rAq6P-mldqpNe78roVGoYdS78D7aid_WXDCmLy7QiRdhOUMFMecjLTYKHWiEbsFBWn3ovSURXM-Tg7gbPglAemOOkb1ir1_uYQkVg"/><div class="flex flex-col"><span class="font-headline-sm text-body-sm font-bold tracking-tight text-on-surface uppercase">Serendib Pepper</span><span class="font-body-sm text-[11px] leading-tight text-on-surface-variant font-medium">Delkanda • Nugegoda</span></div></div><div class="flex items-center gap-space-xs"><a aria-label="Call Delkanda Store" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-on-surface active:bg-surface-container-high transition-colors" href="tel:0777511933"><span class="material-symbols-outlined text-[22px]">call</span></a><a aria-label="WhatsApp Serendib" class="w-11 h-11 flex items-center justify-center rounded-full bg-secondary text-on-secondary shadow-[0_4px_12px_-2px_rgba(0,109,47,0.3)] hover:opacity-90 active:scale-95 transition-all" href="https://wa.me/94777511933?text=Serendib%20Ceylon%20Pepper%20Inquiry" rel="noopener" target="_blank"><span class="material-symbols-outlined text-[20px]">chat</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center ml-1"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-32 bg-surface"><div class="flex flex-col w-full">
+<!-- 1. TICKER BANNER -->
+<aside class="w-full bg-primary text-on-primary py-space-xs px-margin flex items-center justify-between overflow-hidden shadow-sm">
+<div class="flex items-center gap-space-xs shrink-0">
+<span class="w-2 h-2 rounded-full bg-secondary-fixed animate-pulse"></span>
+<span class="font-label-tag text-[10px] tracking-wider uppercase text-secondary-fixed">Islandwide Delivery</span>
+</div>
+<div class="overflow-x-auto no-scrollbar whitespace-nowrap pl-space-sm flex items-center gap-space-md text-[11px] font-body-sm text-surface-variant font-medium">
+<span>100% Organic Ceylon Pepper</span>
+<span class="text-outline">/</span>
+<span>Direct Delkanda Dispatch</span>
+<span class="text-outline">/</span>
+<span class="text-secondary-fixed font-bold">550+ GL Density</span>
+<span class="text-outline">/</span>
+<span>Cash on Delivery (COD)</span>
+</div>
+</aside>
+<!-- 2. UPPER HERO SECTION -->
+<section class="px-margin pt-space-lg pb-space-lg flex flex-col gap-space-md">
+<!-- Bilingual Headline -->
+<div class="flex flex-col gap-1.5">
+<div class="inline-flex items-center gap-1.5 self-start px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-body-sm text-[11px]">
+<span class="material-symbols-outlined text-[14px] text-secondary">verified</span>
+<span>Single-Origin Grade 1 • දෙල්කඳ</span>
+</div>
+<h1 class="font-label-sinhala-lead text-headline-lg-mobile text-on-surface tracking-tight mt-1">
+        පිරිසිදු ශ්‍රී ලාංකික ගම්මිරිස්
+      </h1>
+<p class="font-body-md text-on-surface-variant text-body-sm leading-relaxed">
+        Pure Ceylon Black Pepper — freshly cured, graded, and directly dispatched from Delkanda, Nugegoda.
+      </p>
+</div>
+<!-- Value Badges -->
+<div class="grid grid-cols-3 gap-space-xs">
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col gap-1 text-center items-center shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[20px]">sunny</span>
+<span class="font-label-sinhala-body text-[12px] font-bold text-on-surface">100% ස්වභාවිකයි</span>
+<span class="font-body-sm text-[10px] text-on-surface-variant leading-tight">Sun-Dried</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col gap-1 text-center items-center shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[20px]">local_fire_department</span>
+<span class="font-label-sinhala-body text-[12px] font-bold text-on-surface">ඉහළම සුවඳ &amp; සැර</span>
+<span class="font-body-sm text-[10px] text-on-surface-variant leading-tight">Piperine 5.5%+</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col gap-1 text-center items-center shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[20px]">shield</span>
+<span class="font-label-sinhala-body text-[12px] font-bold text-on-surface">කලවම් නැති</span>
+<span class="font-body-sm text-[10px] text-on-surface-variant leading-tight">Zero Additives</span>
+</div>
+</div>
+<!-- Macro Hero Image with Floating Badge -->
+<div class="relative w-full rounded-xl overflow-hidden shadow-md aspect-[16/10] bg-surface-container">
+<img alt="Macro Ceylon peppercorns in minimalist bowl" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1WIrahpWa0lDFa7Lc27JQY9ps02ysE92kcyImwNU96fxZrpBrzWT9Md3JhxmoANlrs7C5IXJk06wShUhjtUdP7uD4a27o2Mgjgmz-bxViDF2cIua_ggYYrQwNoOXrg_SPHGVZSnVuVHNJyPmvhSF0GvZ09bxcqd7vs3yaP6_fcISYg4isf9iGqnADoiPar9MTUH7B3CovjTFjf6JJPspC2E0jCcU-yscK3jdtBuUO3tsjfXLShSLEJsGnnO"/>
+<div class="absolute bottom-3 left-3 right-3 flex items-center justify-between gap-2 p-2.5 rounded-lg bg-primary/85 backdrop-blur-md text-on-primary">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-fixed text-[20px]">science</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-[11px] font-bold tracking-wider uppercase text-secondary-fixed">Lab Tested Density</span>
+<span class="font-body-sm text-[12px] text-on-primary">550+ Grams/Litre (GL) Grade</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded text-[10px] font-bold uppercase bg-surface-container-lowest text-primary">Ceylon Std.</span>
+</div>
+</div>
+<!-- Fast Commerce Trigger CTAs -->
+<div class="flex flex-col gap-space-xs mt-1">
+<a class="w-full h-14 bg-secondary text-on-secondary rounded-lg flex items-center justify-center gap-2 shadow-[0_8px_20px_-4px_rgba(0,109,47,0.4)] active:scale-[0.98] transition-all" href="https://wa.me/94777511933?text=Hello%20Serendib%20Pepper%20Delkanda%2C%20I%20would%20like%20to%20place%20an%20order." rel="noopener" target="_blank">
+<span class="material-symbols-outlined text-[24px]">chat</span>
+<div class="flex flex-col text-left">
+<span class="font-label-sinhala-lead text-body-sm font-bold leading-tight">අදම ඇණවුම් කරන්න (WhatsApp)</span>
+<span class="font-body-sm text-[11px] opacity-90">Direct Dispatch Hub • 0777511933</span>
+</div>
+</a>
+<a class="w-full h-11 rounded-lg bg-surface-container-high text-on-surface flex items-center justify-center gap-2 font-headline-sm text-body-sm active:bg-surface-variant transition-colors" href="tel:0777511933">
+<span class="material-symbols-outlined text-[18px] text-secondary">phone_forwarded</span>
+<span>Call Delkanda Hub: 0777511933</span>
+</a>
+<p class="font-label-sinhala-body text-[12px] text-center text-on-surface-variant mt-0.5">
+        ක්ෂණික සෘජු ඇණවුම් • ලියාපදිංචි කිරීම් හෝ පෝරම අවශ්‍ය නොවේ
+      </p>
+</div>
+</section>
+<!-- 3. ORIGIN & PACKAGING SECTION -->
+<section class="bg-surface-container-low px-margin py-space-lg flex flex-col gap-space-md">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-1.5 text-secondary font-headline-sm text-[12px] uppercase font-bold tracking-wider">
+<span class="material-symbols-outlined text-[16px]">psychiatry</span>
+<span>Single-Origin Provenance</span>
+</div>
+<h2 class="font-label-sinhala-lead text-headline-sm text-on-surface">
+        රෝස්ට් කළ ස්වභාවික සුවඳ රැකගත් ඇසුරුම
+      </h2>
+<p class="font-body-sm text-on-surface-variant text-[13px] leading-relaxed">
+        Specially harvested from certified central &amp; sabaragamuwa estates, moisture-extracted and sealed in multi-layer aroma seal pouches at Delkanda.
+      </p>
+</div>
+<!-- Craft Pouch Visual -->
+<div class="relative w-full rounded-xl overflow-hidden shadow-sm bg-surface-variant aspect-[4/3]">
+<img alt="Serendib Ceylon black pepper packaging pouch" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1WqHnDFisiQZU1Y6ND5zbUNOlfIhQ8WxPaGpt6Gjmx50Q_Y3TiFoYr7lnxQdMiman4L4MwiiOol5alzhu2mhGUAr2Am87GR1_rEI8dqt3xJyB413zUVwLcIhwhUuDOmMdnVeknxRkV35W7m3X5_Fcs0n9CSorEASWZy1SqBJtL-DugrsPEvpE_rSSW2gcPXNvKheZgzCuqACJUX6M5wLayhcn9ErAY6v7MoXTSuFYvjI1bZZ7VSV8S1TIKF"/>
+<div class="absolute top-3 left-3 bg-surface-container-lowest/90 backdrop-blur-sm px-2.5 py-1 rounded-md text-on-surface font-body-sm text-[11px] font-semibold flex items-center gap-1.5 shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[16px]">lock_reset</span>
+<span>Eco-Friendly Resealable Kraft Pouch</span>
+</div>
+</div>
+<!-- Deep Spec Cards -->
+<div class="grid grid-cols-1 gap-space-xs">
+<div class="p-space-md rounded-lg bg-surface-container-lowest flex items-start gap-space-sm shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[24px] mt-0.5">flare</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-body-md font-bold text-on-surface">5.5% – 6.2% High Piperine Index</span>
+<p class="font-body-sm text-[13px] text-on-surface-variant mt-0.5 leading-normal">
+            Gives rich, biting pungency, warm botanical terpenes, and signature Sri Lankan dark roasted aromatics.
+          </p>
+</div>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container-lowest flex items-start gap-space-sm shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[24px] mt-0.5">verified_user</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-body-md font-bold text-on-surface">0% Foreign Additives</span>
+<p class="font-body-sm text-[13px] text-on-surface-variant mt-0.5 leading-normal">
+            Strictly unadulterated. Zero sawdust fillers, no exhausted berry mixtures, and zero synthetic drying enhancers.
+          </p>
+</div>
+</div>
+</div>
+<div class="p-space-sm rounded-lg bg-secondary-container/30 flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px]">local_shipping</span>
+<span class="font-body-sm text-[12px] text-on-secondary-fixed-variant font-medium">Freshly packed &amp; dispatched daily from Delkanda Hub.</span>
+</div>
+</section>
+<!-- 4. FRESH PACKS & WHOLESALE PRICING CARDS -->
+<section class="px-margin py-space-lg flex flex-col gap-space-md">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-1.5 text-secondary font-headline-sm text-[12px] uppercase font-bold tracking-wider">
+<span class="material-symbols-outlined text-[16px]">price_change</span>
+<span>Transparent Pricing</span>
+</div>
+<h2 class="font-label-sinhala-lead text-headline-sm text-on-surface">
+        නැවුම් ඇසුරුම් සහ පැහැදිලි මිල ගණන්
+      </h2>
+<p class="font-body-sm text-on-surface-variant text-[13px]">
+        Select pack size &amp; tap WhatsApp to order directly without registration.
+      </p>
+</div>
+<!-- Product Stack -->
+<div class="flex flex-col gap-space-sm">
+<!-- Pack 1: 100g -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-start justify-between">
+<div>
+<div class="flex items-center gap-1.5">
+<h3 class="font-headline-sm text-body-lg font-bold text-on-surface">100g Trial Pouch</h3>
+</div>
+<p class="font-body-sm text-[12px] text-on-surface-variant">Zip-lock resealable freshness • Whole Corns</p>
+</div>
+<div class="text-right">
+<span class="font-label-currency text-headline-sm font-extrabold text-on-surface">Rs. 450</span>
+<span class="block font-label-sinhala-body text-[11px] text-on-surface-variant">රු. 450</span>
+</div>
+</div>
+<a class="w-full h-10 rounded-lg bg-surface-container-high hover:bg-secondary hover:text-on-secondary text-on-surface flex items-center justify-center gap-1.5 text-body-sm font-bold transition-all active:scale-[0.98]" href="https://wa.me/94777511933?text=Hi%2C%20I%20would%20like%20to%20order%20the%20100g%20Trial%20Pouch%20(Rs.%20450)." rel="noopener" target="_blank">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span>WhatsApp මඟින් ඇණවුම් කරන්න</span>
+</a>
+</div>
+<!-- Pack 2: 250g FEATURED -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-md flex flex-col gap-space-sm relative">
+<div class="absolute -top-3 right-4 px-2.5 py-0.5 rounded-full bg-secondary text-on-secondary text-[10px] font-headline-sm font-bold uppercase tracking-wider flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-[13px]">stars</span>
+<span>Most Popular</span>
+</div>
+<div class="flex items-start justify-between pt-1">
+<div>
+<h3 class="font-headline-sm text-body-lg font-bold text-on-surface">250g Premium Craft Bag</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant">Optimal culinary balance • High aroma retention</p>
+</div>
+<div class="text-right">
+<span class="font-label-currency text-headline-sm font-extrabold text-secondary">Rs. 1,050</span>
+<span class="block font-label-sinhala-body text-[11px] text-on-surface-variant">රු. 1,050</span>
+</div>
+</div>
+<a class="w-full h-11 rounded-lg bg-secondary text-on-secondary flex items-center justify-center gap-1.5 text-body-sm font-bold shadow-[0_4px_12px_-2px_rgba(0,109,47,0.3)] active:scale-[0.98] transition-all" href="https://wa.me/94777511933?text=Hi%2C%20I%20would%20like%20to%20order%20the%20250g%20Premium%20Craft%20Bag%20(Rs.%201%2C050)." rel="noopener" target="_blank">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span>WhatsApp මඟින් ඇණවුම් කරන්න</span>
+</a>
+</div>
+<!-- Pack 3: 500g -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-start justify-between">
+<div>
+<h3 class="font-headline-sm text-body-lg font-bold text-on-surface">500g Value Pack</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant">Family &amp; gourmet use • Significant saving</p>
+</div>
+<div class="text-right">
+<span class="font-label-currency text-headline-sm font-extrabold text-on-surface">Rs. 2,000</span>
+<span class="block font-label-sinhala-body text-[11px] text-on-surface-variant">රු. 2,000</span>
+</div>
+</div>
+<a class="w-full h-10 rounded-lg bg-surface-container-high hover:bg-secondary hover:text-on-secondary text-on-surface flex items-center justify-center gap-1.5 text-body-sm font-bold transition-all active:scale-[0.98]" href="https://wa.me/94777511933?text=Hi%2C%20I%20would%20like%20to%20order%20the%20500g%20Value%20Pack%20(Rs.%202%2C000)." rel="noopener" target="_blank">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span>WhatsApp මඟින් ඇණවුම් කරන්න</span>
+</a>
+</div>
+<!-- Pack 4: 1kg WHOLESALE -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-start justify-between">
+<div>
+<div class="flex items-center gap-1.5">
+<h3 class="font-headline-sm text-body-lg font-bold text-on-surface">1kg Wholesale Pack</h3>
+<span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-surface-variant text-on-surface-variant uppercase">Bulk</span>
+</div>
+<p class="font-body-sm text-[12px] text-on-surface-variant">Hotels, restaurants, meat processors &amp; exporters</p>
+</div>
+<div class="text-right">
+<span class="font-label-currency text-headline-sm font-extrabold text-on-surface">Rs. 3,850</span>
+<span class="block font-label-sinhala-body text-[11px] text-on-surface-variant">රු. 3,850</span>
+</div>
+</div>
+<a class="w-full h-10 rounded-lg bg-surface-container-high hover:bg-secondary hover:text-on-secondary text-on-surface flex items-center justify-center gap-1.5 text-body-sm font-bold transition-all active:scale-[0.98]" href="https://wa.me/94777511933?text=Hi%2C%20I%20would%20like%20to%20order%20the%201kg%20Wholesale%20Pack%20(Rs.%203%2C850)." rel="noopener" target="_blank">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span>WhatsApp මඟින් ඇණවුම් කරන්න</span>
+</a>
+</div>
+</div>
+</section>
+<!-- 5. AYURVEDIC WELLNESS & HEALTH BENEFITS -->
+<section class="bg-surface-container px-margin py-space-lg flex flex-col gap-space-md">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-1.5 text-secondary font-headline-sm text-[12px] uppercase font-bold tracking-wider">
+<span class="material-symbols-outlined text-[16px]">self_improvement</span>
+<span>Traditional Ceylon Ayurveda</span>
+</div>
+<h2 class="font-label-sinhala-lead text-headline-sm text-on-surface">
+        ගම්මිරිස් සතු ඖෂධීය සහ සුවතා ගුණය
+      </h2>
+<p class="font-body-sm text-on-surface-variant text-[13px]">
+        Therapeutic potency backed by centuries of indigenous Ayurvedic medicine.
+      </p>
+</div>
+<div class="grid grid-cols-1 gap-space-xs">
+<div class="p-space-md rounded-lg bg-surface-container-lowest flex items-center gap-space-sm shadow-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-container/40 flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[20px]">vital_signs</span>
+</div>
+<div class="flex flex-col">
+<h4 class="font-label-sinhala-lead text-body-sm font-bold text-on-surface">ප්‍රතිශක්තිය වර්ධනය</h4>
+<span class="font-body-sm text-[12px] text-on-surface-variant">Naturally stimulates metabolism, blood circulation &amp; respiratory relief.</span>
+</div>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container-lowest flex items-center gap-space-sm shadow-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-container/40 flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[20px]">nutrition</span>
+</div>
+<div class="flex flex-col">
+<h4 class="font-label-sinhala-lead text-body-sm font-bold text-on-surface">ආහාර ජීරණය පහසු කරයි</h4>
+<span class="font-body-sm text-[12px] text-on-surface-variant">Triggers hydrochloric acid secretion for optimal gut absorption.</span>
+</div>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container-lowest flex items-center gap-space-sm shadow-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-container/40 flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[20px]">healing</span>
+</div>
+<div class="flex flex-col">
+<h4 class="font-label-sinhala-lead text-body-sm font-bold text-on-surface">පිළිකා මර්දන ප්‍රතිඔක්සිකාරක</h4>
+<span class="font-body-sm text-[12px] text-on-surface-variant">High concentration of free-radical neutralizing Piperine flavonoids.</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. SOCIAL PROOF, QR SCAN & LOCAL PICKUP HUB -->
+<section class="px-margin py-space-lg flex flex-col gap-space-md">
+<!-- Facebook Social Card -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-9 h-9 rounded-full bg-primary flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[18px]">thumb_up</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-body-sm font-bold text-on-surface">Serendib Black Pepper</h4>
+<span class="font-body-sm text-[11px] text-on-surface-variant">@SerendibPepperLK • Official Page</span>
+</div>
+</div>
+<div class="flex items-center gap-0.5 text-secondary text-body-sm font-bold">
+<span>4.9</span>
+<span class="material-symbols-outlined text-[16px] text-secondary">star</span>
+</div>
+</div>
+<p class="font-body-sm text-[12px] text-on-surface-variant leading-relaxed">
+        Over 1,400 verified reviews from spice connoisseurs, Colombo chefs, and home cooks across Sri Lanka.
+      </p>
+</div>
+<!-- Scan to WhatsApp Card -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex items-center justify-between gap-space-sm shadow-sm">
+<div class="flex flex-col gap-1">
+<span class="font-headline-sm text-[11px] uppercase tracking-wider text-secondary font-bold">Quick Mobile Scan</span>
+<h4 class="font-label-sinhala-lead text-body-sm font-bold text-on-surface">
+          QR කේතය ස්කෑන් කර WhatsApp වෙත පිවිසෙන්න
+        </h4>
+<span class="font-body-sm text-[11px] text-on-surface-variant">Tap or scan with camera to open chat directly.</span>
+</div>
+<div class="w-16 h-16 rounded-lg bg-surface-container-lowest p-1.5 flex items-center justify-center shrink-0 shadow-sm">
+<!-- Minimal SVG QR Representation -->
+<svg aria-label="QR Code" class="w-full h-full text-on-surface fill-current" viewbox="0 0 100 100">
+<rect height="30" rx="3" width="30" x="0" y="0"></rect>
+<rect height="30" rx="3" width="30" x="70" y="0"></rect>
+<rect height="30" rx="3" width="30" x="0" y="70"></rect>
+<rect fill="#fcf9f2" height="16" width="16" x="7" y="7"></rect>
+<rect fill="#fcf9f2" height="16" width="16" x="77" y="7"></rect>
+<rect fill="#fcf9f2" height="16" width="16" x="7" y="77"></rect>
+<rect height="8" width="8" x="11" y="11"></rect>
+<rect height="8" width="8" x="81" y="11"></rect>
+<rect height="8" width="8" x="11" y="81"></rect>
+<rect height="10" width="10" x="40" y="10"></rect>
+<rect height="10" width="20" x="40" y="30"></rect>
+<rect height="10" width="20" x="70" y="45"></rect>
+<rect height="20" width="10" x="40" y="70"></rect>
+<rect height="10" width="20" x="60" y="70"></rect>
+</svg>
+</div>
+</div>
+<!-- Delkanda Store Pickup Hub -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[22px]">storefront</span>
+<h3 class="font-headline-sm text-body-md font-bold text-on-surface">Delkanda Store &amp; Dispatch Hub</h3>
+</div>
+<div class="flex flex-col gap-1 text-[13px] font-body-sm text-on-surface-variant">
+<p class="font-medium text-on-surface">No. 142, High Level Road, Delkanda, Nugegoda, Sri Lanka</p>
+<p>Open Monday to Saturday: 8:30 AM – 6:30 PM</p>
+<div class="inline-flex items-center gap-1 text-[11px] text-secondary font-bold mt-1">
+<span class="material-symbols-outlined text-[14px]">local_parking</span>
+<span>Easy roadside customer parking available</span>
+</div>
+</div>
+<!-- Static Location View Container -->
+<div class="w-full h-36 bg-cover bg-center rounded-lg shadow-inner relative flex items-end p-2.5" data-location="Delkanda, Nugegoda, Sri Lanka" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCZjhr15nSusPerbbR8pV5Jqd7Yfbim03V4b51dsrZPaQNwGxwuQdDxiTnwm1xMj2fY72ID7mh5xKA_e5PPrNNRtbSsgTR2JHT3A6vQeCF4WLk6o6JrYqtn268qyp0kOVo5deeWTo7Lg-3SPjEkC2zMQvwI7i1tXYPON7346fZEOjYOCKAFWRouoYObh0B5N6706sPwLbsADpC-wNvDN6CzsHYRZzhOvLpD3EFj148Icx26yBsCGey3CA')">
+<a class="px-3 py-1.5 rounded-md bg-primary text-on-primary text-[11px] font-headline-sm font-bold flex items-center gap-1 shadow-md active:scale-95 transition-all" href="https://maps.google.com/?q=Delkanda+Nugegoda+Sri+Lanka" rel="noopener" target="_blank">
+<span class="material-symbols-outlined text-[14px]">navigation</span>
+<span>Open in Google Maps</span>
+</a>
+</div>
+</div>
+</section>
+<!-- 7. PROMINENT BOTTOM CONVERSION TRIGGER -->
+<section class="px-margin pt-space-xs pb-space-lg flex flex-col items-center text-center gap-2">
+<div class="w-12 h-1 rounded-full bg-surface-variant mb-1"></div>
+<span class="font-label-sinhala-lead text-body-sm font-bold text-on-surface">
+      තොග සහ සිල්ලර ක්ෂණික ඇණවුම් සඳහා අමතන්න
+    </span>
+<a class="font-label-currency text-headline-md font-extrabold text-secondary tracking-tight" href="tel:0777511933">
+      0777 511 933
+    </a>
+<span class="font-body-sm text-[12px] text-on-surface-variant">
+      High Level Road, Delkanda • දිවයින පුරා බෙදාහැරීම
+    </span>
+</section>
+</div><footer class="mt-space-xl px-margin pb-space-lg bg-surface-container text-on-surface-variant"><div class="pt-space-lg flex flex-col gap-space-md"><div class="flex items-start gap-space-sm"><span class="material-symbols-outlined text-secondary text-[24px] mt-0.5">storefront</span><div><h4 class="font-headline-sm text-body-md font-bold text-on-surface">Delkanda Dispatch Hub &amp; Store Pickup</h4><p class="font-body-sm text-body-sm mt-0.5 text-on-surface-variant">High Level Road, Delkanda, Nugegoda, Sri Lanka</p><span class="font-label-sinhala-body text-[13px] leading-relaxed text-on-surface-variant block mt-0.5">දෙල්කඳ ප්‍රධාන බෙදාහැරීමේ මධ්‍යස්ථානය (0777511933)</span></div></div><div class="flex flex-wrap items-center justify-between gap-space-xs pt-space-sm"><span class="font-body-sm text-[12px] text-on-surface-variant">© 2025 Serendib Ceylon Pepper. All rights reserved.</span><span class="font-label-sinhala-body text-[12px] text-on-surface-variant">100% පිරිසිදු ලංකා ගම්මිරිස්</span></div></div></footer></main><div class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-4px_20px_rgba(0,0,0,0.06)]"><div class="px-margin py-space-sm flex items-center gap-space-sm"><a class="flex-1 h-12 bg-secondary text-on-secondary rounded-lg flex items-center justify-center gap-2 shadow-[0_8px_20px_-4px_rgba(0,109,47,0.4)] active:scale-[0.98] transition-transform" href="https://wa.me/94777511933?text=Hello%20Serendib%20Pepper%2C%20I%20would%20like%20to%20order%20single-origin%20Ceylon%20black%20pepper." rel="noopener" target="_blank"><span class="material-symbols-outlined text-[20px]">shopping_bag</span><span class="font-headline-sm text-body-sm font-bold truncate">අදම ඇණවුම් කරන්න (0777511933)</span></a><a aria-label="Call Dispatch Line" class="w-12 h-12 rounded-lg bg-surface-container-high text-on-surface flex items-center justify-center flex-shrink-0 active:bg-surface-variant transition-colors" href="tel:0777511933"><span class="material-symbols-outlined text-[22px]">phone_in_talk</span></a></div><nav class="h-14 flex items-center justify-around px-margin" data-active-classes="text-secondary font-bold"><a aria-current="page" class="flex flex-col items-center justify-center gap-0.5 min-w-[44px] min-h-[44px] text-secondary font-bold" data-path="home-showcase" href="#"><span class="material-symbols-outlined text-[20px]">eco</span><span class="font-body-sm text-[11px] leading-tight">Pepper</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[44px] min-h-[44px] text-on-surface-variant hover:text-on-surface" data-path="origin-grades" href="#"><span class="material-symbols-outlined text-[20px]">verified</span><span class="font-body-sm text-[11px] leading-tight">Grades</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[44px] min-h-[44px] text-on-surface-variant hover:text-on-surface" data-path="delkanda-hub" href="#"><span class="material-symbols-outlined text-[20px]">location_on</span><span class="font-body-sm text-[11px] leading-tight">Pickup Hub</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[44px] min-h-[44px] text-on-surface-variant hover:text-on-surface" data-path="instant-inquiry" href="#"><span class="material-symbols-outlined text-[20px]">support_agent</span><span class="font-body-sm text-[11px] leading-tight">Direct Contact</span></a></nav></div></body></html>
