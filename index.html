@@ -10,24 +10,8 @@
   <link rel="preconnect" href="https://gstatic.com" crossorigin>
   <link href="https://googleapis.com/css2?family=Noto+Serif+Sinhala:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   
-  <!-- Font-Face Icons Utility Layout Sheet -->
-  <style>
-    @font-face {
-      font-family: 'Material Symbols Outlined';
-      font-style: normal;
-      font-weight: 100 700;
-      src: url(https://gstatic.com/s/materialsymbolsoutlined/v375/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHeem.ttf) format('truetype');
-    }
-    .material-symbols-outlined {
-      font-family: 'Material Symbols Outlined';
-      font-weight: normal;
-      font-style: normal;
-      font-size: 24px;
-      line-height: 1;
-      display: inline-block;
-      direction: ltr;
-    }
-  </style>
+  <!-- Fixed Google Material Icons stylesheet injection link -->
+  <link href="https://googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <script src="https://tailwindcss.com"></script>
   <script id="tailwind-config">
@@ -100,7 +84,7 @@
         padding: 40px 24px !important;
       }
 
-      /* Make Upper Hero Minimalist & Clean (Removes Plain Aggressive Green Backdrop) */
+      /* Make Upper Hero Minimalist & Clean */
       .hero-clean-slate {
         background: radial-gradient(circle at center, #ffffff 0%, #FAF8F5 100%) !important;
         border: none !important;
@@ -121,7 +105,6 @@
       }
 
       @media (max-width: 768px) {
-        /* Add balanced alignment vertical layout room for small phone devices */
         .flex-col, .grid {
           gap: 40px !important; 
         }
@@ -146,8 +129,8 @@
 
 <body class="bg-surface font-body-md text-body-md text-on-surface flex flex-col min-h-screen">
   
-  <!-- BRAND NAVIGATION HEADER HEADER -->
-  <header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.03)]">
+  <!-- BRAND NAVIGATION HEADER -->
+  <header class="fixed top-0 w-full z-50 pt-safe bg-white/90 backdrop-blur-xl shadow-sm">
     <div class="h-16 px-6 flex items-center justify-between gap-4">
       <div class="flex items-center gap-3">
         <img alt="Serendib Brand Logo" class="h-9 w-auto object-contain rounded-md" src="https://googleusercontent.com"/>
@@ -157,11 +140,11 @@
         </div>
       </div>
       <div class="flex items-center gap-2">
-        <a aria-label="Call Store" class="w-11 h-11 flex items-center justify-center rounded-full text-neutral-600 hover:bg-neutral-100 active:scale-95 transition-all" href="tel:0777511933">
-          <span class="material-symbols-outlined text-[24px]">call</span>
+        <a aria-label="Call Store" class="w-11 h-11 flex items-center justify-center rounded-full bg-neutral-100 text-neutral-700 hover:bg-neutral-200 active:scale-95 transition-all" href="tel:0777511933">
+          <span class="material-icons text-[22px]">call</span>
         </a>
         <a aria-label="WhatsApp Store" class="w-11 h-11 flex items-center justify-center rounded-full bg-emerald-600 text-white shadow-md hover:opacity-95 active:scale-95 transition-all" href="https://wa.me" rel="noopener" target="_blank">
-          <span class="material-symbols-outlined text-[22px]">chat</span>
+          <span class="material-icons text-[20px]">chat</span>
         </a>
       </div>
     </div>
@@ -172,7 +155,7 @@
     <div class="flex flex-col w-full">
       
       <!-- 1. ISLANDWIDE BANNER TICKER -->
-      <aside class="bg-neutral-900 text-white py-2.5 px-6 flex items-center justify-between overflow-hidden shadow-sm rounded-none border-none m-0">
+      <aside class="bg-neutral-900 text-white py-2.5 px-6 flex items-center justify-between overflow-hidden rounded-none border-none m-0">
         <div class="flex items-center gap-2 shrink-0">
           <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
           <span class="font-label-tag text-[10px] tracking-wider uppercase text-emerald-400 font-bold">Islandwide Delivery</span>
@@ -192,10 +175,22 @@
       <section class="hero-clean-slate flex flex-col gap-6">
         <div class="flex flex-col gap-2">
           <div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-neutral-100 text-neutral-700 font-medium text-[11px] self-start shadow-sm">
-            <span class="material-symbols-outlined text-[14px] text-emerald-600 font-bold">verified</span>
+            <span class="material-icons text-[14px] text-emerald-600 font-bold">verified</span>
             <span>Single-Origin Grade 1 • දෙල්කඳ</span>
           </div>
           <h1 class="font-label-sinhala-lead text-3xl md:text-5xl text-neutral-900 tracking-tight mt-2 leading-tight">
             පිරිසිදු ශ්‍රී ලාංකික ගම්මිරිස්
           </h1>
           <p class="text-neutral-500 text-[15px] font-medium leading-relaxed max-w-xl">
+            Premium Grade 1 Ceylon Black Pepper — freshly sun-dried, sorted, and packed to preserve intense pungent aroma and native essential oils. Handled with supreme local care from field straight to your doorstep in Delkanda, Nugegoda.
+          </p>
+        </div>
+
+        <div class="relative w-full rounded-2xl overflow-hidden shadow-lg border border-neutral-200/50 bg-white p-2">
+          <img alt="Premium Pepper Showcase" class="w-full h-64 md:h-96 object-cover rounded-xl" src="https://unsplash.com"/>
+        </div>
+      </section>
+
+      <!-- 3. PRODUCT SPECIFICATIONS AND PURCHASE CARD -->
+      <section class="flex flex-col gap-6">
+        <div class="border-b border-neutral-100 pb-4">
